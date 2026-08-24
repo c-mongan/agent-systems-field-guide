@@ -1,0 +1,17 @@
+{
+  "incident_id": "checkout-2026-08-12",
+  "events": [
+    {"event_id":"e01","timestamp":"2026-08-12T09:00:01Z","request_id":"r-101","component":"gateway","severity":"info","code":"REQUEST_ACCEPTED"},
+    {"event_id":"e02","timestamp":"2026-08-12T09:00:02Z","request_id":"r-101","component":"database","severity":"info","code":"ORDER_READ_OK"},
+    {"event_id":"e03","timestamp":"2026-08-12T09:00:07Z","request_id":"r-101","component":"payment-provider","severity":"error","code":"UPSTREAM_TIMEOUT"},
+    {"event_id":"e04","timestamp":"2026-08-12T09:00:07Z","request_id":"r-101","component":"checkout-api","severity":"error","code":"PAYMENT_UNAVAILABLE"},
+    {"event_id":"e05","timestamp":"2026-08-12T09:00:10Z","request_id":"r-102","component":"gateway","severity":"info","code":"REQUEST_ACCEPTED"},
+    {"event_id":"e06","timestamp":"2026-08-12T09:00:11Z","request_id":"r-102","component":"database","severity":"info","code":"ORDER_READ_OK"},
+    {"event_id":"e07","timestamp":"2026-08-12T09:00:16Z","request_id":"r-102","component":"payment-provider","severity":"error","code":"UPSTREAM_TIMEOUT"},
+    {"event_id":"e08","timestamp":"2026-08-12T09:00:16Z","request_id":"r-102","component":"checkout-api","severity":"error","code":"PAYMENT_UNAVAILABLE"},
+    {"event_id":"e09","timestamp":"2026-08-12T09:00:20Z","request_id":"r-103","component":"gateway","severity":"info","code":"REQUEST_ACCEPTED"},
+    {"event_id":"e10","timestamp":"2026-08-12T09:00:21Z","request_id":"r-103","component":"database","severity":"info","code":"ORDER_READ_OK"},
+    {"event_id":"e11","timestamp":"2026-08-12T09:00:22Z","request_id":"r-103","component":"payment-provider","severity":"info","code":"PAYMENT_OK"},
+    {"event_id":"e12","timestamp":"2026-08-12T09:00:23Z","request_id":"r-103","component":"checkout-api","severity":"info","code":"CHECKOUT_OK"}
+  ]
+}

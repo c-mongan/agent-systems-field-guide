@@ -1,0 +1,101 @@
+{
+  "cases": [
+    {
+      "agent_count": 0,
+      "case_id": "sa-01",
+      "deterministic_count": 8,
+      "expected_success_probability": 1.0,
+      "input_tokens": 360,
+      "kind": "mechanical",
+      "latency_ms": 360.0
+    },
+    {
+      "agent_count": 0,
+      "case_id": "sa-02",
+      "deterministic_count": 20,
+      "expected_success_probability": 1.0,
+      "input_tokens": 900,
+      "kind": "mechanical",
+      "latency_ms": 900.0
+    },
+    {
+      "agent_count": 0,
+      "case_id": "sa-03",
+      "deterministic_count": 5,
+      "expected_success_probability": 1.0,
+      "input_tokens": 225,
+      "kind": "mechanical",
+      "latency_ms": 225.0
+    },
+    {
+      "agent_count": 0,
+      "case_id": "sa-04",
+      "deterministic_count": 12,
+      "expected_success_probability": 1.0,
+      "input_tokens": 540,
+      "kind": "mechanical",
+      "latency_ms": 540.0
+    },
+    {
+      "agent_count": 3,
+      "case_id": "sa-05",
+      "deterministic_count": 0,
+      "expected_success_probability": 0.92685937,
+      "input_tokens": 3600,
+      "kind": "independent-reasoning",
+      "latency_ms": 2125.0
+    },
+    {
+      "agent_count": 2,
+      "case_id": "sa-06",
+      "deterministic_count": 0,
+      "expected_success_probability": 0.950625,
+      "input_tokens": 2400,
+      "kind": "independent-reasoning",
+      "latency_ms": 1690.0
+    },
+    {
+      "agent_count": 0,
+      "case_id": "sa-07",
+      "deterministic_count": 30,
+      "expected_success_probability": 1.0,
+      "input_tokens": 1350,
+      "kind": "mechanical",
+      "latency_ms": 1350.0
+    },
+    {
+      "agent_count": 4,
+      "case_id": "sa-08",
+      "deterministic_count": 0,
+      "expected_success_probability": 0.90368789,
+      "input_tokens": 4800,
+      "kind": "independent-reasoning",
+      "latency_ms": 2660.0
+    },
+    {
+      "agent_count": 0,
+      "case_id": "sa-09",
+      "deterministic_count": 6,
+      "expected_success_probability": 1.0,
+      "input_tokens": 270,
+      "kind": "mechanical",
+      "latency_ms": 270.0
+    },
+    {
+      "agent_count": 3,
+      "case_id": "sa-10",
+      "deterministic_count": 0,
+      "expected_success_probability": 0.92685937,
+      "input_tokens": 3600,
+      "kind": "independent-reasoning",
+      "latency_ms": 2275.0
+    }
+  ],
+  "metrics": {
+    "mean_agent_count": 1.2,
+    "mean_expected_success_probability": 0.97080316,
+    "mean_input_tokens": 1804.5,
+    "mean_latency_ms": 1239.5
+  },
+  "variant": "candidate"
+}

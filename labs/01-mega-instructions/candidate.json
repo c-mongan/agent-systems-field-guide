@@ -1,0 +1,14 @@
+{
+  "blocks": {
+    "customer-response": "Write a clear external response with confirmed facts, user impact, workaround, and next update. Do not expose internal-only evidence or uncertain root causes.",
+    "data-analysis": "Define the population, clean the dataset, state missing coverage, compute metrics, and separate observation from inference. Do not treat estimates as measured values.",
+    "documentation-editing": "Preserve factual meaning, reduce unclear language, validate examples, and keep links working. Do not invent benchmark results or product support.",
+    "incident-triage": "Build a timestamped evidence chain across application, infrastructure, database, and provider signals. Prefer containment and reversible action over speculative code changes.",
+    "migration-planning": "Classify changes into mechanical transforms, semantic rewrites, compatibility checks, and rollout batches. Do not merge changes or publish releases.",
+    "pull-request-review": "Review changed code for correctness, tests, compatibility, and maintainability. Do not modify version numbers or publish packages during review.",
+    "release-control": "Calculate package versions, dependency propagation, changelog sections, and publish order. Do not approve code quality or edit implementation files.",
+    "security-assessment": "Inspect trust boundaries, authentication, session handling, secrets, and data exposure. Treat missing evidence as unknown and do not claim an exploit."
+  },
+  "core": "Use supplied evidence. Mark unknowns. Keep changes reversible. Run the same acceptance checks before and after any architecture change.",
+  "mode": "on-demand"
+}

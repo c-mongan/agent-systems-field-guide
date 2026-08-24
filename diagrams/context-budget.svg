@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="380" viewBox="0 0 980 380" role="img" aria-labelledby="title desc">
+<title id="title">Context budget</title>
+<desc id="desc">Eager loading includes unused skill and reference content; progressive loading does not.</desc>
+<style>
+  .bg{fill:#F7F9FC}.card{fill:#FFFFFF;stroke:#CBD5E1;stroke-width:2}
+  .h{font:700 26px system-ui,sans-serif;fill:#172033}.t{font:600 17px system-ui,sans-serif;fill:#172033}
+  .s{font:400 14px system-ui,sans-serif;fill:#5D6B82}.line{stroke:#5D6B82;stroke-width:2;fill:none}
+  .label{font:700 12px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase}
+  @media(prefers-color-scheme:dark){.bg{fill:#0B1020}.card{fill:#141B2D;stroke:#344155}.h,.t{fill:#F2F5FA}.s{fill:#AAB6CA}.line{stroke:#8391A8}}
+</style>
+<rect class="bg" width="100%" height="100%" rx="24"/>
+<text class="h" x="50" y="54">Context budget: eager versus on demand</text><text class="t" x="70" y="105">Eager</text><rect x="70" y="125" width="820" height="58" rx="12" fill="#E5E7EB"/><rect x="70" y="125" width="360" height="58" fill="#3B82F6"/><text x="82" y="160" font-family="system-ui" font-size="14" fill="white">active</text><rect x="430" y="125" width="260" height="58" fill="#DC4C64"/><text x="442" y="160" font-family="system-ui" font-size="14" fill="white">other skills</text><rect x="690" y="125" width="200" height="58" fill="#7C3AED"/><text x="702" y="160" font-family="system-ui" font-size="14" fill="white">unused refs</text><text class="t" x="70" y="245">Progressive</text><rect x="70" y="265" width="470" height="58" rx="12" fill="#E5E7EB"/><rect x="70" y="265" width="110" height="58" fill="#3B82F6"/><text x="80" y="300" font-family="system-ui" font-size="14" fill="white">catalog</text><rect x="180" y="265" width="230" height="58" fill="#0F9D8A"/><text x="190" y="300" font-family="system-ui" font-size="14" fill="white">active skill</text><rect x="410" y="265" width="130" height="58" fill="#7C3AED"/><text x="420" y="300" font-family="system-ui" font-size="14" fill="white">needed ref</text>
+</svg>

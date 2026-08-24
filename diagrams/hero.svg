@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="310" viewBox="0 0 1240 310" role="img" aria-labelledby="title desc">
+<title id="title">Agent systems field guide</title>
+<desc id="desc">A spectrum from global instructions to isolated subagents.</desc>
+<style>
+  .bg{fill:#F7F9FC}.card{fill:#FFFFFF;stroke:#CBD5E1;stroke-width:2}
+  .h{font:700 26px system-ui,sans-serif;fill:#172033}.t{font:600 17px system-ui,sans-serif;fill:#172033}
+  .s{font:400 14px system-ui,sans-serif;fill:#5D6B82}.line{stroke:#5D6B82;stroke-width:2;fill:none}
+  .label{font:700 12px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase}
+  @media(prefers-color-scheme:dark){.bg{fill:#0B1020}.card{fill:#141B2D;stroke:#344155}.h,.t{fill:#F2F5FA}.s{fill:#AAB6CA}.line{stroke:#8391A8}}
+</style>
+<rect class="bg" width="100%" height="100%" rx="24"/>
+<text class="h" x="60" y="64">Agent systems: use the smallest effective primitive</text><rect class="card" x="60" y="110" width="250" height="100" rx="18"/>
+<rect x="60" y="110" width="8" height="100" rx="4" fill="#3B82F6"/>
+<text class="t" x="84" y="146">Instructions</text>
+<text class="s" x="84" y="172">Rules needed on most tasks</text><rect class="card" x="350" y="110" width="250" height="100" rx="18"/>
+<rect x="350" y="110" width="8" height="100" rx="4" fill="#0F9D8A"/>
+<text class="t" x="374" y="146">Skill</text>
+<text class="s" x="374" y="172">Reusable judgment and procedure</text><rect class="card" x="640" y="110" width="250" height="100" rx="18"/>
+<rect x="640" y="110" width="8" height="100" rx="4" fill="#D97706"/>
+<text class="t" x="664" y="146">Script / tool</text>
+<text class="s" x="664" y="172">Exact or repetitive work</text><rect class="card" x="930" y="110" width="250" height="100" rx="18"/>
+<rect x="930" y="110" width="8" height="100" rx="4" fill="#7C3AED"/>
+<text class="t" x="954" y="146">Subagent</text>
+<text class="s" x="954" y="172">Isolated independent reasoning</text><path class="line" d="M310 160 L350 160"/><path d="M342 155 L350 160 L342 165" fill="none" stroke="#5D6B82" stroke-width="2"/><path class="line" d="M600 160 L640 160"/><path d="M632 155 L640 160 L632 165" fill="none" stroke="#5D6B82" stroke-width="2"/><path class="line" d="M890 160 L930 160"/><path d="M922 155 L930 160 L922 165" fill="none" stroke="#5D6B82" stroke-width="2"/><text class="s" x="60" y="264">References add optional knowledge. MCP exposes external capability. Workflows control required order and side effects.</text>
+</svg>

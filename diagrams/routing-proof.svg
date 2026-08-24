@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="410" viewBox="0 0 1120 410" role="img" aria-labelledby="title desc">
+<title id="title">Routing boundary proof</title>
+<desc id="desc">The same six skills improve structural routing after descriptions are made distinct.</desc>
+<style>
+  .bg{fill:#F7F9FC}.card{fill:#FFFFFF;stroke:#CBD5E1;stroke-width:2}
+  .h{font:700 26px system-ui,sans-serif;fill:#172033}.t{font:600 17px system-ui,sans-serif;fill:#172033}
+  .s{font:400 14px system-ui,sans-serif;fill:#5D6B82}.line{stroke:#5D6B82;stroke-width:2;fill:none}
+  .label{font:700 12px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase}
+  @media(prefers-color-scheme:dark){.bg{fill:#0B1020}.card{fill:#141B2D;stroke:#344155}.h,.t{fill:#F2F5FA}.s{fill:#AAB6CA}.line{stroke:#8391A8}}
+</style>
+<rect class="bg" width="100%" height="100%" rx="24"/>
+<text class="h" x="50" y="54">Same six skills. Clearer boundaries.</text><rect class="card" x="60" y="100" width="430" height="220" rx="20"/><rect x="60" y="100" width="8" height="220" rx="4" fill="#DC4C64"/><text class="label" x="88" y="135" fill="#DC4C64">BASELINE</text><text class="t" x="88" y="172">Broad, overlapping descriptions</text><text class="s" x="88" y="205">Accuracy</text><text class="h" x="88" y="246">37.5%</text><text class="s" x="270" y="205">Ambiguity</text><text class="h" x="270" y="246">70.8%</text><text class="s" x="88" y="286">Several skills claim review, release, security,</text><text class="s" x="88" y="307">migration, documentation, and production risk.</text><path class="line" d="M510 210 L610 210"/><path d="M602 205 L610 210 L602 215" fill="none" stroke="#5D6B82" stroke-width="2"/><rect class="card" x="630" y="100" width="430" height="220" rx="20"/><rect x="630" y="100" width="8" height="220" rx="4" fill="#0F9D8A"/><text class="label" x="658" y="135" fill="#0F9D8A">CANDIDATE</text><text class="t" x="658" y="172">Distinct intent, evidence, and output</text><text class="s" x="658" y="205">Accuracy</text><text class="h" x="658" y="246">95.8%</text><text class="s" x="840" y="205">Ambiguity</text><text class="h" x="840" y="246">12.5%</text><text class="s" x="658" y="286">Skill names, jobs, cases, and router stay fixed.</text><text class="s" x="658" y="307">Only descriptions and negative boundaries change.</text><text class="s" x="60" y="365">Deterministic structural lab • 24 frozen prompts • not a live model benchmark</text>
+</svg>

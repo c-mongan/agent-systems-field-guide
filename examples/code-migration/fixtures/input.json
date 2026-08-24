@@ -1,0 +1,12 @@
+{
+  "migration": "LegacyCheckoutClient to CheckoutClientV2",
+  "findings": [
+    {"finding_id":"m01","package":"web-checkout","path":"src/cart.ts","line":18,"pattern":"direct-method-rename","custom_control_flow":false},
+    {"finding_id":"m02","package":"web-checkout","path":"src/pay.ts","line":74,"pattern":"callback-to-async","custom_control_flow":true},
+    {"finding_id":"m03","package":"checkout-core","path":"src/retry.ts","line":31,"pattern":"custom-retry","custom_control_flow":true},
+    {"finding_id":"m04","package":"worker","path":"jobs/reconcile.ts","line":22,"pattern":"static-import-rename","custom_control_flow":false},
+    {"finding_id":"m05","package":"worker","path":"jobs/refund.ts","line":89,"pattern":"callback-to-async","custom_control_flow":true},
+    {"finding_id":"m06","package":"checkout-core","path":"src/client.ts","line":44,"pattern":"named-argument-rename","custom_control_flow":false},
+    {"finding_id":"m07","package":"web-checkout","path":"src/provider.ts","line":102,"pattern":"dynamic-import","custom_control_flow":true}
+  ]
+}

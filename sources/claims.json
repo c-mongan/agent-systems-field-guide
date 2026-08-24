@@ -1,0 +1,159 @@
+[
+  {
+    "class": "official",
+    "id": "start-single-agent",
+    "sources": [
+      "openai-practical-agents",
+      "anthropic-decomposition-workshop"
+    ],
+    "statement": "Start with one capable agent and add more agents only when complexity or tool overlap causes measured failures."
+  },
+  {
+    "class": "official",
+    "id": "overlap-not-count",
+    "sources": [
+      "openai-practical-agents",
+      "agent-skills-best-practices"
+    ],
+    "statement": "Tool or skill overlap is a stronger warning signal than raw catalogue count."
+  },
+  {
+    "class": "specification",
+    "id": "progressive-disclosure",
+    "sources": [
+      "agent-skills-spec"
+    ],
+    "statement": "Agent Skills use catalogue metadata, activated SKILL.md instructions, then on-demand resources."
+  },
+  {
+    "class": "specification",
+    "id": "skill-size-guidance",
+    "sources": [
+      "agent-skills-spec",
+      "agent-skills-best-practices"
+    ],
+    "statement": "Keep SKILL.md under 500 lines and below about 5,000 tokens where practical; move conditional detail to references."
+  },
+  {
+    "class": "official",
+    "id": "scripts-for-determinism",
+    "sources": [
+      "openai-programmatic-tools",
+      "agent-skills-spec"
+    ],
+    "statement": "Use executable code for bounded filtering, joining, ranking, deduplication, aggregation, validation, and other exact work."
+  },
+  {
+    "class": "official",
+    "id": "skill-v-workflow",
+    "sources": [
+      "microsoft-skills-workflows"
+    ],
+    "statement": "Use a skill when the model should decide how; use a workflow when order, checkpoints, side effects, or approvals must be controlled."
+  },
+  {
+    "class": "official",
+    "id": "subagent-isolation",
+    "sources": [
+      "anthropic-subagents",
+      "github-custom-agents"
+    ],
+    "statement": "Subagents are useful for isolated context, specialist tools, or independent parallel work."
+  },
+  {
+    "class": "official",
+    "id": "copilot-eager-skills",
+    "sources": [
+      "github-sdk-custom-agents"
+    ],
+    "statement": "Copilot SDK custom-agent skills are injected in full when the agent starts and are not inherited by child agents."
+  },
+  {
+    "class": "official",
+    "id": "skill-lift-eval",
+    "sources": [
+      "nvidia-skillevaluator",
+      "nvidia-skillevaluator-method",
+      "openai-skill-evals"
+    ],
+    "statement": "Evaluate skills with structural gates, overlap checks, and with-skill versus without-skill live runs."
+  },
+  {
+    "class": "official",
+    "id": "blind-comparison",
+    "sources": [
+      "anthropic-skill-creator"
+    ],
+    "statement": "Blind A/B comparison reduces evaluator bias when comparing skill variants."
+  },
+  {
+    "class": "heuristic",
+    "id": "pinned-validation",
+    "sources": [
+      "agnix-049"
+    ],
+    "statement": "Pin architecture validators and fail when they are missing; optional silent gates do not provide reproducible proof."
+  },
+  {
+    "class": "specification",
+    "id": "mcp-boundary",
+    "sources": [
+      "mcp-spec"
+    ],
+    "statement": "MCP is a protocol boundary for external capabilities and context, not a replacement for every local function."
+  },
+  {
+    "class": "specification",
+    "id": "okf-optional",
+    "sources": [
+      "google-okf"
+    ],
+    "statement": "OKF can represent knowledge as Markdown plus metadata, but a guide may keep human-readable Markdown as its canonical source."
+  },
+  {
+    "class": "official",
+    "id": "adapter-bounds",
+    "sources": [
+      "codex-noninteractive",
+      "anthropic-cli",
+      "gemini-headless"
+    ],
+    "statement": "Headless harness adapters should make model, permissions, output format, persistence, and schema controls explicit."
+  },
+  {
+    "class": "official",
+    "id": "microsoft-agent-evaluation",
+    "sources": [
+      "microsoft-agent-evaluation"
+    ],
+    "statement": "Evaluate agent and workflow behavior with repeatable inputs, expected tools, stored results, and repeated runs where nondeterminism matters."
+  },
+  {
+    "class": "official",
+    "id": "skill-security-review",
+    "sources": [
+      "microsoft-skills-workflows",
+      "owasp-agentic"
+    ],
+    "statement": "Treat skills, references, and bundled scripts as executable supply-chain inputs that require review, least privilege, sandboxing, and audit logs."
+  },
+  {
+    "class": "official",
+    "id": "headless-adapter-controls",
+    "sources": [
+      "anthropic-headless",
+      "anthropic-cli",
+      "codex-noninteractive",
+      "gemini-headless"
+    ],
+    "statement": "A reproducible headless run should make the model, permissions, persistence, output format, timeout, and working data explicit."
+  },
+  {
+    "class": "official",
+    "id": "skill-catalog-filtering",
+    "sources": [
+      "microsoft-skills-workflows"
+    ],
+    "statement": "Large shared skill libraries can be filtered, deduplicated, and cached before exposure to a requesting agent."
+  }
+]

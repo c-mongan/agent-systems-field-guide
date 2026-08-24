@@ -1,0 +1,50 @@
+{
+  "lab": "04-overlapping-skills",
+  "metrics": {
+    "accuracy": {
+      "baseline": 0.375,
+      "candidate": 0.958333,
+      "delta": 0.583333,
+      "direction": "higher",
+      "improved": true
+    },
+    "ambiguity_rate": {
+      "baseline": 0.708333,
+      "candidate": 0.125,
+      "delta": -0.583333,
+      "direction": "lower",
+      "improved": true
+    },
+    "catalog_items": {
+      "baseline": 6,
+      "candidate": 6,
+      "delta": 0,
+      "direction": "lower",
+      "improved": false
+    },
+    "max_pairwise_overlap": {
+      "baseline": 0.6,
+      "candidate": 0.12,
+      "delta": -0.48,
+      "direction": "lower",
+      "improved": true
+    },
+    "mean_margin": {
+      "baseline": 0.592072,
+      "candidate": 3.839794,
+      "delta": 3.247722,
+      "direction": "higher",
+      "improved": true
+    },
+    "mean_pairwise_overlap": {
+      "baseline": 0.376729,
+      "candidate": 0.021136,
+      "delta": -0.355593,
+      "direction": "lower",
+      "improved": true
+    }
+  },
+  "model_benchmark": false,
+  "result_type": "deterministic-structural-experiment",
+  "runner_version": "0.4.0"
+}

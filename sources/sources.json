@@ -1,0 +1,210 @@
+[
+  {
+    "id": "agent-skills-spec",
+    "publisher": "Agent Skills",
+    "reviewed": "2026-08-24",
+    "title": "Agent Skills specification",
+    "type": "specification",
+    "url": "https://agentskills.io/specification"
+  },
+  {
+    "id": "agent-skills-best-practices",
+    "publisher": "Agent Skills",
+    "reviewed": "2026-08-24",
+    "title": "Best practices for skill creators",
+    "type": "official-guide",
+    "url": "https://agentskills.io/skill-creation/best-practices"
+  },
+  {
+    "id": "anthropic-skill-creator",
+    "publisher": "Anthropic",
+    "reviewed": "2026-08-24",
+    "title": "Anthropic Skill Creator",
+    "type": "official-skill",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md"
+  },
+  {
+    "id": "anthropic-decomposition-workshop",
+    "publisher": "Anthropic",
+    "reviewed": "2026-08-24",
+    "title": "Agent decomposition workshop",
+    "type": "official-workshop",
+    "url": "https://github.com/anthropics/cwc-workshops/tree/main/agent-decomposition"
+  },
+  {
+    "id": "anthropic-subagents",
+    "publisher": "Anthropic",
+    "reviewed": "2026-08-24",
+    "title": "Claude Code subagents",
+    "type": "official-docs",
+    "url": "https://code.claude.com/docs/en/sub-agents"
+  },
+  {
+    "id": "anthropic-cli",
+    "publisher": "Anthropic",
+    "reviewed": "2026-08-24",
+    "title": "Claude Code CLI reference",
+    "type": "official-docs",
+    "url": "https://code.claude.com/docs/en/cli-usage"
+  },
+  {
+    "id": "openai-practical-agents",
+    "publisher": "OpenAI",
+    "reviewed": "2026-08-24",
+    "title": "A practical guide to building agents",
+    "type": "official-guide",
+    "url": "https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/"
+  },
+  {
+    "id": "openai-programmatic-tools",
+    "publisher": "OpenAI",
+    "reviewed": "2026-08-24",
+    "title": "Programmatic tool calling",
+    "type": "official-docs",
+    "url": "https://developers.openai.com/api/docs/guides/tools-programmatic-tool-calling"
+  },
+  {
+    "id": "openai-skill-evals",
+    "publisher": "OpenAI",
+    "reviewed": "2026-08-24",
+    "title": "Testing Agent Skills systematically with evals",
+    "type": "official-guide",
+    "url": "https://developers.openai.com/blog/eval-skills"
+  },
+  {
+    "id": "codex-noninteractive",
+    "publisher": "OpenAI",
+    "reviewed": "2026-08-24",
+    "title": "Codex non-interactive mode",
+    "type": "official-docs",
+    "url": "https://learn.chatgpt.com/docs/non-interactive-mode"
+  },
+  {
+    "id": "github-custom-agents",
+    "publisher": "GitHub",
+    "reviewed": "2026-08-24",
+    "title": "Custom agents and sub-agent orchestration",
+    "type": "official-docs",
+    "url": "https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/create-custom-agents-for-cli"
+  },
+  {
+    "id": "github-sdk-custom-agents",
+    "publisher": "GitHub",
+    "reviewed": "2026-08-24",
+    "title": "Copilot SDK custom agents",
+    "type": "official-docs",
+    "url": "https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/custom-agents"
+  },
+  {
+    "id": "github-customization-cheatsheet",
+    "publisher": "GitHub",
+    "reviewed": "2026-08-24",
+    "title": "Copilot customization cheat sheet",
+    "type": "official-docs",
+    "url": "https://docs.github.com/en/copilot/reference/customization-cheat-sheet"
+  },
+  {
+    "id": "microsoft-skills-workflows",
+    "publisher": "Microsoft",
+    "reviewed": "2026-08-24",
+    "title": "Skills or workflows in Microsoft Agent Framework",
+    "type": "official-docs",
+    "url": "https://learn.microsoft.com/en-us/agent-framework/agents/skills"
+  },
+  {
+    "id": "microsoft-agent-evaluation",
+    "publisher": "Microsoft",
+    "reviewed": "2026-08-24",
+    "title": "Agent Framework evaluation",
+    "type": "official-docs",
+    "url": "https://learn.microsoft.com/en-us/agent-framework/agents/evaluation"
+  },
+  {
+    "id": "nvidia-skillevaluator",
+    "publisher": "NVIDIA",
+    "reviewed": "2026-08-24",
+    "title": "NVIDIA SkillEvaluator",
+    "type": "official-docs",
+    "url": "https://docs.nvidia.com/skills/skillevaluator"
+  },
+  {
+    "id": "nvidia-skillevaluator-method",
+    "publisher": "NVIDIA",
+    "reviewed": "2026-08-24",
+    "title": "Evaluating agent skill performance",
+    "type": "official-method",
+    "url": "https://developer.nvidia.com/blog/evaluating-ai-agent-skill-performance-with-nvidia-skillevaluator/"
+  },
+  {
+    "id": "agnix-049",
+    "publisher": "agent-sh",
+    "reviewed": "2026-08-24",
+    "title": "agnix v0.49.0",
+    "type": "tool-release",
+    "url": "https://github.com/agent-sh/agnix/releases/tag/v0.49.0"
+  },
+  {
+    "id": "mcp-spec",
+    "publisher": "MCP",
+    "reviewed": "2026-08-24",
+    "title": "Model Context Protocol specification",
+    "type": "specification",
+    "url": "https://modelcontextprotocol.io/specification"
+  },
+  {
+    "id": "google-okf",
+    "publisher": "Google Cloud",
+    "reviewed": "2026-08-24",
+    "title": "Open Knowledge Format v0.2",
+    "type": "specification",
+    "url": "https://github.com/GoogleCloudPlatform/open-knowledge-format"
+  },
+  {
+    "id": "gemini-headless",
+    "publisher": "Google",
+    "reviewed": "2026-08-24",
+    "title": "Gemini CLI headless mode",
+    "type": "official-docs",
+    "url": "https://geminicli.com/docs/cli/headless/"
+  },
+  {
+    "id": "gemini-skills",
+    "publisher": "Google",
+    "reviewed": "2026-08-24",
+    "title": "Gemini CLI Agent Skills",
+    "type": "official-docs",
+    "url": "https://geminicli.com/docs/cli/skills/"
+  },
+  {
+    "id": "cursor-skills",
+    "publisher": "Cursor",
+    "reviewed": "2026-08-24",
+    "title": "Cursor Agent Skills",
+    "type": "official-docs",
+    "url": "https://cursor.com/docs/skills"
+  },
+  {
+    "id": "owasp-agentic",
+    "publisher": "OWASP",
+    "reviewed": "2026-08-24",
+    "title": "OWASP Agentic AI threats and mitigations",
+    "type": "security-guidance",
+    "url": "https://genai.owasp.org/resource/agentic-ai-threats-and-mitigations/"
+  },
+  {
+    "id": "anthropic-headless",
+    "publisher": "Anthropic",
+    "reviewed": "2026-08-24",
+    "title": "Run Claude Code programmatically",
+    "type": "official-docs",
+    "url": "https://code.claude.com/docs/en/headless"
+  },
+  {
+    "id": "github-agent-skills",
+    "publisher": "GitHub",
+    "reviewed": "2026-08-24",
+    "title": "About agent skills",
+    "type": "official-docs",
+    "url": "https://docs.github.com/en/copilot/concepts/agents/about-agent-skills"
+  }
+]

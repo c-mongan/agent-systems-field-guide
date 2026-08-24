@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "description": "Review code changes, pull requests, security, tests, releases, migrations, documentation, and production risks.",
+      "name": "pull-request-review"
+    },
+    {
+      "description": "Review code changes, pull requests, authentication, security, dependencies, production risks, and release safety.",
+      "name": "auth-security-review"
+    },
+    {
+      "description": "Review code changes, pull requests, package releases, migrations, dependencies, documentation, and production risk.",
+      "name": "release-engineering"
+    },
+    {
+      "description": "Review production failures, code changes, security, dependencies, releases, customer impact, and operational risk.",
+      "name": "production-incident"
+    },
+    {
+      "description": "Review code changes, migrations, compatibility, dependencies, tests, releases, documentation, and operational risk.",
+      "name": "code-migration"
+    },
+    {
+      "description": "Review documentation, code changes, releases, migrations, examples, links, and customer-facing accuracy.",
+      "name": "documentation-maintenance"
+    }
+  ]
+}

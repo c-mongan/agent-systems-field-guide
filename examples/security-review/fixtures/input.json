@@ -1,0 +1,16 @@
+{
+  "review_id":"account-portal-auth",
+  "policy":{
+    "require_secure_cookie":true,
+    "require_http_only":true,
+    "allowed_same_site":["Lax","Strict"],
+    "require_pkce":true,
+    "allowed_redirect_uris":["https://account.example.com/callback"],
+    "allowed_browser_token_storage":"http-only-session-cookie"
+  },
+  "configuration":{
+    "session_cookie":{"secure":true,"http_only":false,"same_site":"None"},
+    "oauth":{"pkce":false,"redirect_uris":["https://account.example.com/callback","https://*.example.com/callback"]},
+    "browser_token_storage":"local-storage-access-token"
+  }
+}

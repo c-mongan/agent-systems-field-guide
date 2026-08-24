@@ -1,0 +1,294 @@
+{
+  "decisions": [
+    {
+      "case_id": "to-01",
+      "correct": true,
+      "expected": "repo-code-search",
+      "margin": 4.505526,
+      "runner_up_score": 0.0,
+      "score": 4.505526,
+      "scores": {
+        "dependency-audit": 0.0,
+        "documentation-link-check": 0.0,
+        "incident-event-query": 0.0,
+        "release-plan-build": 0.0,
+        "repo-code-search": 4.505526,
+        "security-config-check": 0.0
+      },
+      "selected": "repo-code-search"
+    },
+    {
+      "case_id": "to-02",
+      "correct": true,
+      "expected": "repo-code-search",
+      "margin": 4.505526,
+      "runner_up_score": 0.0,
+      "score": 4.505526,
+      "scores": {
+        "dependency-audit": 0.0,
+        "documentation-link-check": 0.0,
+        "incident-event-query": 0.0,
+        "release-plan-build": 0.0,
+        "repo-code-search": 4.505526,
+        "security-config-check": 0.0
+      },
+      "selected": "repo-code-search"
+    },
+    {
+      "case_id": "to-03",
+      "correct": true,
+      "expected": "dependency-audit",
+      "margin": 2.252763,
+      "runner_up_score": 1.847298,
+      "score": 4.100061,
+      "scores": {
+        "dependency-audit": 4.100061,
+        "documentation-link-check": 0.0,
+        "incident-event-query": 0.0,
+        "release-plan-build": 1.847298,
+        "repo-code-search": 0.0,
+        "security-config-check": 0.0
+      },
+      "selected": "dependency-audit"
+    },
+    {
+      "case_id": "to-04",
+      "correct": true,
+      "expected": "dependency-audit",
+      "margin": 7.108289,
+      "runner_up_score": 0.0,
+      "score": 7.108289,
+      "scores": {
+        "dependency-audit": 7.108289,
+        "documentation-link-check": 0.0,
+        "incident-event-query": 0.0,
+        "release-plan-build": 0.0,
+        "repo-code-search": 0.0,
+        "security-config-check": 0.0
+      },
+      "selected": "dependency-audit"
+    },
+    {
+      "case_id": "to-05",
+      "correct": true,
+      "expected": "incident-event-query",
+      "margin": 9.011052,
+      "runner_up_score": 0.0,
+      "score": 9.011052,
+      "scores": {
+        "dependency-audit": 0.0,
+        "documentation-link-check": 0.0,
+        "incident-event-query": 9.011052,
+        "release-plan-build": 0.0,
+        "repo-code-search": 0.0,
+        "security-config-check": 0.0
+      },
+      "selected": "incident-event-query"
+    },
+    {
+      "case_id": "to-06",
+      "correct": true,
+      "expected": "incident-event-query",
+      "margin": 2.602763,
+      "runner_up_score": 2.252763,
+      "score": 4.855526,
+      "scores": {
+        "dependency-audit": 0.0,
+        "documentation-link-check": 0.0,
+        "incident-event-query": 4.855526,
+        "release-plan-build": 0.0,
+        "repo-code-search": 2.252763,
+        "security-config-check": 0.0
+      },
+      "selected": "incident-event-query"
+    },
+    {
+      "case_id": "to-07",
+      "correct": true,
+      "expected": "release-plan-build",
+      "margin": 11.613815,
+      "runner_up_score": 0.0,
+      "score": 11.613815,
+      "scores": {
+        "dependency-audit": 0.0,
+        "documentation-link-check": 0.0,
+        "incident-event-query": 0.0,
+        "release-plan-build": 11.613815,
+        "repo-code-search": 0.0,
+        "security-config-check": 0.0
+      },
+      "selected": "release-plan-build"
+    },
+    {
+      "case_id": "to-08",
+      "correct": true,
+      "expected": "release-plan-build",
+      "margin": 4.505526,
+      "runner_up_score": 1.847298,
+      "score": 6.352824,
+      "scores": {
+        "dependency-audit": 1.847298,
+        "documentation-link-check": 0.0,
+        "incident-event-query": 0.0,
+        "release-plan-build": 6.352824,
+        "repo-code-search": 0.0,
+        "security-config-check": 0.0
+      },
+      "selected": "release-plan-build"
+    },
+    {
+      "case_id": "to-09",
+      "correct": true,
+      "expected": "security-config-check",
+      "margin": 11.263815,
+      "runner_up_score": 2.252763,
+      "score": 13.516578,
+      "scores": {
+        "dependency-audit": 0.0,
+        "documentation-link-check": 2.252763,
+        "incident-event-query": 0.0,
+        "release-plan-build": 0.0,
+        "repo-code-search": 0.0,
+        "security-config-check": 13.516578
+      },
+      "selected": "security-config-check"
+    },
+    {
+      "case_id": "to-10",
+      "correct": true,
+      "expected": "security-config-check",
+      "margin": 4.505526,
+      "runner_up_score": 0.0,
+      "score": 4.505526,
+      "scores": {
+        "dependency-audit": 0.0,
+        "documentation-link-check": 0.0,
+        "incident-event-query": 0.0,
+        "release-plan-build": 0.0,
+        "repo-code-search": 0.0,
+        "security-config-check": 4.505526
+      },
+      "selected": "security-config-check"
+    },
+    {
+      "case_id": "to-11",
+      "correct": true,
+      "expected": "documentation-link-check",
+      "margin": 9.011052,
+      "runner_up_score": 2.252763,
+      "score": 11.263815,
+      "scores": {
+        "dependency-audit": 0.0,
+        "documentation-link-check": 11.263815,
+        "incident-event-query": 0.0,
+        "release-plan-build": 0.0,
+        "repo-code-search": 2.252763,
+        "security-config-check": 0.0
+      },
+      "selected": "documentation-link-check"
+    },
+    {
+      "case_id": "to-12",
+      "correct": true,
+      "expected": "documentation-link-check",
+      "margin": 6.758289,
+      "runner_up_score": 0.0,
+      "score": 6.758289,
+      "scores": {
+        "dependency-audit": 0.0,
+        "documentation-link-check": 6.758289,
+        "incident-event-query": 0.0,
+        "release-plan-build": 0.0,
+        "repo-code-search": 0.0,
+        "security-config-check": 0.0
+      },
+      "selected": "documentation-link-check"
+    }
+  ],
+  "metrics": {
+    "accuracy": 1.0,
+    "ambiguity_rate": 0.0,
+    "catalog_items": 6,
+    "max_pairwise_overlap": 0.055556,
+    "mean_margin": 6.470328,
+    "mean_pairwise_overlap": 0.007213
+  },
+  "pairwise_overlap": [
+    {
+      "jaccard": 0.0,
+      "left": "repo-code-search",
+      "right": "dependency-audit"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "repo-code-search",
+      "right": "incident-event-query"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "repo-code-search",
+      "right": "release-plan-build"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "repo-code-search",
+      "right": "security-config-check"
+    },
+    {
+      "jaccard": 0.052632,
+      "left": "repo-code-search",
+      "right": "documentation-link-check"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "dependency-audit",
+      "right": "incident-event-query"
+    },
+    {
+      "jaccard": 0.055556,
+      "left": "dependency-audit",
+      "right": "release-plan-build"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "dependency-audit",
+      "right": "security-config-check"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "dependency-audit",
+      "right": "documentation-link-check"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "incident-event-query",
+      "right": "release-plan-build"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "incident-event-query",
+      "right": "security-config-check"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "incident-event-query",
+      "right": "documentation-link-check"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "release-plan-build",
+      "right": "security-config-check"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "release-plan-build",
+      "right": "documentation-link-check"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "security-config-check",
+      "right": "documentation-link-check"
+    }
+  ],
+  "variant": "candidate"
+}

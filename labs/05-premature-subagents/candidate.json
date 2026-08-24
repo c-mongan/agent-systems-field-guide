@@ -1,0 +1,9 @@
+{
+  "agent_failure_probability": 0.025,
+  "agent_spawn_ms": 420,
+  "agent_tokens": 1200,
+  "coordination_ms_per_agent": 35,
+  "script_ms": 45,
+  "script_tokens": 45,
+  "strategy": "selective"
+}

@@ -1,0 +1,29 @@
+{
+  "component_error_counts": {
+    "checkout-api": 2,
+    "payment-provider": 2
+  },
+  "confidence": "high",
+  "containment": "Disable automatic payment retries and route failed requests to a manual retry queue.",
+  "evidence_event_ids": [
+    "e02",
+    "e03",
+    "e04",
+    "e06",
+    "e07",
+    "e08"
+  ],
+  "failed_requests": [
+    "r-101",
+    "r-102"
+  ],
+  "incident_id": "checkout-2026-08-12",
+  "leading_boundary": "payment-provider",
+  "reasons": [
+    "Repeated upstream timeout events occur at the payment-provider boundary.",
+    "Database events remain successful for the same requests."
+  ],
+  "unknowns": [
+    "The provider's internal root cause is not present in this dataset."
+  ]
+}

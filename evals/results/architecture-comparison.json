@@ -1,0 +1,60 @@
+{
+  "metrics": {
+    "input_tokens": {
+      "baseline": 4558.333333,
+      "bootstrap_95pct_delta": [
+        -2050.0,
+        -1550.0
+      ],
+      "candidate": 2783.333333,
+      "delta": -1775.0,
+      "direction": "lower",
+      "improved": true
+    },
+    "latency_ms": {
+      "baseline": 1540.0,
+      "bootstrap_95pct_delta": [
+        -623.333333,
+        -493.333333
+      ],
+      "candidate": 981.666667,
+      "delta": -558.333333,
+      "direction": "lower",
+      "improved": true
+    },
+    "output_tokens": {
+      "baseline": 335.0,
+      "bootstrap_95pct_delta": [
+        -55.0,
+        -18.333333
+      ],
+      "candidate": 300.0,
+      "delta": -35.0,
+      "direction": "lower",
+      "improved": true
+    },
+    "success_rate": {
+      "baseline": 0.666667,
+      "bootstrap_95pct_delta": [
+        0.0,
+        0.666667
+      ],
+      "candidate": 1.0,
+      "delta": 0.333333,
+      "direction": "higher",
+      "improved": true
+    },
+    "tool_calls": {
+      "baseline": 9.333333,
+      "bootstrap_95pct_delta": [
+        -5.833333,
+        -3.833333
+      ],
+      "candidate": 4.5,
+      "delta": -4.833333,
+      "direction": "lower",
+      "improved": true
+    }
+  },
+  "paired_cases": 6
+}

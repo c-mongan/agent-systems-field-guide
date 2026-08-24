@@ -1,0 +1,12 @@
+{"case_id": "ms-01", "domain": "oauth", "expected": "Server-side session ID in an HttpOnly, Secure cookie.", "key": "session-storage"}
+{"case_id": "ms-02", "domain": "oauth", "expected": "Authorization Code with PKCE.", "key": "browser-flow"}
+{"case_id": "ms-03", "domain": "oauth", "expected": "Rotate refresh tokens after use and revoke the previous token.", "key": "rotation"}
+{"case_id": "ms-04", "domain": "webhook", "expected": "Do not create a browser session; verify the signed request body.", "key": "session-storage"}
+{"case_id": "ms-05", "domain": "webhook", "expected": "No browser flow; use a signed server-to-server delivery.", "key": "browser-flow"}
+{"case_id": "ms-06", "domain": "webhook", "expected": "Accept active and next signing secrets during a bounded rotation window.", "key": "rotation"}
+{"case_id": "ms-07", "domain": "service-account", "expected": "No user session; keep credentials in a managed secret store.", "key": "session-storage"}
+{"case_id": "ms-08", "domain": "service-account", "expected": "No browser flow; use workload identity or a short-lived client assertion.", "key": "browser-flow"}
+{"case_id": "ms-09", "domain": "service-account", "expected": "Prefer short-lived identity; otherwise rotate credentials with overlap.", "key": "rotation"}
+{"case_id": "ms-10", "domain": "mobile", "expected": "Store refresh material in the platform secure enclave or keychain.", "key": "session-storage"}
+{"case_id": "ms-11", "domain": "mobile", "expected": "Authorization Code with PKCE through the system browser.", "key": "browser-flow"}
+{"case_id": "ms-12", "domain": "mobile", "expected": "Use refresh-token rotation and device-bound revocation where supported.", "key": "rotation"}

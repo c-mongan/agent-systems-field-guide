@@ -1,0 +1,36 @@
+{
+  "context_budget": 16000,
+  "mode": "eager",
+  "skills": {
+    "auth-security-review": {
+      "body_tokens": 2300,
+      "catalog_tokens": 70,
+      "reference_tokens": 7200
+    },
+    "code-migration": {
+      "body_tokens": 2100,
+      "catalog_tokens": 66,
+      "reference_tokens": 6400
+    },
+    "documentation-maintenance": {
+      "body_tokens": 1400,
+      "catalog_tokens": 58,
+      "reference_tokens": 3200
+    },
+    "production-incident": {
+      "body_tokens": 2500,
+      "catalog_tokens": 68,
+      "reference_tokens": 8300
+    },
+    "pull-request-review": {
+      "body_tokens": 1800,
+      "catalog_tokens": 62,
+      "reference_tokens": 4400
+    },
+    "release-engineering": {
+      "body_tokens": 1900,
+      "catalog_tokens": 64,
+      "reference_tokens": 5100
+    }
+  }
+}

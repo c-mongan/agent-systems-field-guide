@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="310" viewBox="0 0 1040 310" role="img" aria-labelledby="title desc">
+<title id="title">Progressive disclosure</title>
+<desc id="desc">Catalogue, activated skill, and on-demand resources.</desc>
+<style>
+  .bg{fill:#F7F9FC}.card{fill:#FFFFFF;stroke:#CBD5E1;stroke-width:2}
+  .h{font:700 26px system-ui,sans-serif;fill:#172033}.t{font:600 17px system-ui,sans-serif;fill:#172033}
+  .s{font:400 14px system-ui,sans-serif;fill:#5D6B82}.line{stroke:#5D6B82;stroke-width:2;fill:none}
+  .label{font:700 12px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase}
+  @media(prefers-color-scheme:dark){.bg{fill:#0B1020}.card{fill:#141B2D;stroke:#344155}.h,.t{fill:#F2F5FA}.s{fill:#AAB6CA}.line{stroke:#8391A8}}
+</style>
+<rect class="bg" width="100%" height="100%" rx="24"/>
+<text class="h" x="50" y="54">Progressive disclosure</text><rect class="card" x="50" y="100" width="260" height="100" rx="18"/>
+<rect x="50" y="100" width="8" height="100" rx="4" fill="#3B82F6"/>
+<text class="t" x="74" y="136">1. Catalogue</text>
+<text class="s" x="74" y="162">Name + description for discovery</text><path class="line" d="M310 150 L390 150"/><path d="M382 145 L390 150 L382 155" fill="none" stroke="#5D6B82" stroke-width="2"/><rect class="card" x="390" y="100" width="260" height="100" rx="18"/>
+<rect x="390" y="100" width="8" height="100" rx="4" fill="#0F9D8A"/>
+<text class="t" x="414" y="136">2. SKILL.md</text>
+<text class="s" x="414" y="162">Core procedure after activation</text><path class="line" d="M650 150 L730 150"/><path d="M722 145 L730 150 L722 155" fill="none" stroke="#5D6B82" stroke-width="2"/><rect class="card" x="730" y="100" width="260" height="100" rx="18"/>
+<rect x="730" y="100" width="8" height="100" rx="4" fill="#7C3AED"/>
+<text class="t" x="754" y="136">3. Resources</text>
+<text class="s" x="754" y="162">References and scripts as needed</text><text class="s" x="50" y="260">The point is not smaller files. The point is less irrelevant context per task.</text>
+</svg>

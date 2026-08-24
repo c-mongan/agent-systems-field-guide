@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "inputs": {
+    "baseline.json": "e22cd70ac74b58fcdf44a1af1baf3facf6afcfcf4fb4de1ec1c3e0a3e6cc912b",
+    "candidate.json": "d7a4f46ccdf6605c274f7787cc39606f3841e94ef221b914e9be109aaa3ee2f4",
+    "cases.jsonl": "c85f3829ad0c9f2d242fcff47a68f288b3d0d8043aef1054adf074edc049b82b"
+  },
+  "lab": "01-mega-instructions",
+  "model_benchmark": false,
+  "outputs": {
+    "baseline.json": "d6bd10a42abfeb0bc5783c0a6885a83b155966e6171a8f493484a6fcba9071e1",
+    "candidate.json": "ce954db283b382e476b982dc2747170985b9adbe78cd52c1fb8f3a2ab42f434f",
+    "comparison.json": "566a746a5cbe983d6e209f2a511f66b57f9fb76a50712e2935224012312e4f2b"
+  },
+  "result_type": "deterministic-structural-experiment",
+  "review_date": "2026-08-24",
+  "runner_version": "0.4.0"
+}

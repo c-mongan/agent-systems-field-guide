@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="680" viewBox="0 0 1040 680" role="img" aria-labelledby="title desc">
+<title id="title">Architecture decision tree</title>
+<desc id="desc">Questions for selecting the smallest suitable primitive.</desc>
+<style>
+  .bg{fill:#F7F9FC}.card{fill:#FFFFFF;stroke:#CBD5E1;stroke-width:2}
+  .h{font:700 26px system-ui,sans-serif;fill:#172033}.t{font:600 17px system-ui,sans-serif;fill:#172033}
+  .s{font:400 14px system-ui,sans-serif;fill:#5D6B82}.line{stroke:#5D6B82;stroke-width:2;fill:none}
+  .label{font:700 12px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase}
+  @media(prefers-color-scheme:dark){.bg{fill:#0B1020}.card{fill:#141B2D;stroke:#344155}.h,.t{fill:#F2F5FA}.s{fill:#AAB6CA}.line{stroke:#8391A8}}
+</style>
+<rect class="bg" width="100%" height="100%" rx="24"/>
+<text class="h" x="50" y="54">Decision path</text><rect class="card" x="50" y="90" width="560" height="82" rx="18"/>
+<rect x="50" y="90" width="8" height="82" rx="4" fill="#D97706"/>
+<text class="t" x="74" y="126">Can code do it exactly?</text>
+<text class="s" x="74" y="152">Yes → script or tool</text><path class="line" d="M330 172 L330 205"/><path d="M322 200 L330 205 L322 210" fill="none" stroke="#5D6B82" stroke-width="2"/><rect class="card" x="50" y="205" width="560" height="82" rx="18"/>
+<rect x="50" y="205" width="8" height="82" rx="4" fill="#3B82F6"/>
+<text class="t" x="74" y="241">Must order or side effects be fixed?</text>
+<text class="s" x="74" y="267">Yes → workflow</text><path class="line" d="M330 287 L330 320"/><path d="M322 315 L330 320 L322 325" fill="none" stroke="#5D6B82" stroke-width="2"/><rect class="card" x="50" y="320" width="560" height="82" rx="18"/>
+<rect x="50" y="320" width="8" height="82" rx="4" fill="#0F9D8A"/>
+<text class="t" x="74" y="356">Is it a reusable procedure?</text>
+<text class="s" x="74" y="382">Yes → skill</text><path class="line" d="M330 402 L330 435"/><path d="M322 430 L330 435 L322 440" fill="none" stroke="#5D6B82" stroke-width="2"/><rect class="card" x="50" y="435" width="560" height="82" rx="18"/>
+<rect x="50" y="435" width="8" height="82" rx="4" fill="#7C3AED"/>
+<text class="t" x="74" y="471">Is detail needed only sometimes?</text>
+<text class="s" x="74" y="497">Yes → reference</text><path class="line" d="M330 517 L330 550"/><path d="M322 545 L330 550 L322 555" fill="none" stroke="#5D6B82" stroke-width="2"/><rect class="card" x="50" y="550" width="560" height="82" rx="18"/>
+<rect x="50" y="550" width="8" height="82" rx="4" fill="#DC4C64"/>
+<text class="t" x="74" y="586">Does it need isolated reasoning?</text>
+<text class="s" x="74" y="612">Yes → subagent</text><rect class="card" x="680" y="250" width="300" height="120" rx="18"/>
+<rect x="680" y="250" width="8" height="120" rx="4" fill="#0F9D8A"/>
+<text class="t" x="704" y="286">Default</text>
+<text class="s" x="704" y="312">Keep one capable agent until an eval shows a real failure.</text>
+</svg>

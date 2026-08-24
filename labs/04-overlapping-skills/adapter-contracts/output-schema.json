@@ -1,0 +1,12 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "selected": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "selected"
+  ],
+  "type": "object"
+}

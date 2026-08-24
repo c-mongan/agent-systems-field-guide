@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: Agent Systems Field Guide
+message: Cite the repository version and review date used in your work.
+type: software
+version: 0.4.0
+date-released: 2026-08-24
+license: Apache-2.0

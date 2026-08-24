@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      python-quality:
+        patterns: ["coverage", "mypy", "pytest", "ruff"]
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly

@@ -1,0 +1,10 @@
+{"case_id": "mi-01", "conflicts": ["release-control"], "required": ["pull-request-review"], "selected": ["pull-request-review"], "task": "Review a payment retry pull request."}
+{"case_id": "mi-02", "conflicts": ["pull-request-review", "migration-planning"], "required": ["release-control"], "selected": ["release-control"], "task": "Prepare a coordinated release for three packages."}
+{"case_id": "mi-03", "conflicts": ["migration-planning", "customer-response"], "required": ["incident-triage"], "selected": ["incident-triage"], "task": "Investigate a sudden checkout latency incident."}
+{"case_id": "mi-04", "conflicts": [], "required": ["security-assessment"], "selected": ["security-assessment"], "task": "Review OAuth redirect and cookie settings."}
+{"case_id": "mi-05", "conflicts": ["release-control"], "required": ["migration-planning"], "selected": ["migration-planning"], "task": "Plan migration from a deprecated SDK client."}
+{"case_id": "mi-06", "conflicts": [], "required": ["documentation-editing"], "selected": ["documentation-editing"], "task": "Rewrite the operator guide after an API rename."}
+{"case_id": "mi-07", "conflicts": ["documentation-editing"], "required": ["customer-response", "incident-triage"], "selected": ["customer-response", "incident-triage"], "task": "Answer an enterprise customer about an active outage."}
+{"case_id": "mi-08", "conflicts": [], "required": ["data-analysis"], "selected": ["data-analysis"], "task": "Compare retention between two signup cohorts."}
+{"case_id": "mi-09", "conflicts": ["release-control"], "required": ["pull-request-review", "security-assessment"], "selected": ["pull-request-review", "security-assessment"], "task": "Review a security patch before release."}
+{"case_id": "mi-10", "conflicts": ["migration-planning"], "required": ["release-control", "documentation-editing"], "selected": ["release-control", "documentation-editing"], "task": "Write release notes from confirmed package changes."}

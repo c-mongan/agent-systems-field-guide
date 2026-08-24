@@ -1,0 +1,31 @@
+name: Architecture claim or correction
+description: Propose a source-backed change to the field guide.
+title: "claim: "
+labels: [documentation, evidence]
+body:
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim
+      description: State the exact architecture claim in simple technical English.
+    validations:
+      required: true
+  - type: dropdown
+    id: class
+    attributes:
+      label: Evidence class
+      options: [Official, Specification, Research, Heuristic, Measure]
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Primary sources
+      description: Add dated first-party or specification links.
+    validations:
+      required: true
+  - type: textarea
+    id: eval
+    attributes:
+      label: Evaluation impact
+      description: Explain which frozen cases or acceptance checks should change.

@@ -1,0 +1,83 @@
+{
+  "batches": [
+    {
+      "batch": 1,
+      "finding_ids": [
+        "m06",
+        "m01",
+        "m04"
+      ],
+      "gate": "compile + focused tests",
+      "name": "mechanical-codemod"
+    },
+    {
+      "batch": 2,
+      "finding_ids": [
+        "m02",
+        "m05",
+        "m07"
+      ],
+      "gate": "contract + integration tests",
+      "name": "semantic-leaf-packages"
+    },
+    {
+      "batch": 3,
+      "finding_ids": [
+        "m03"
+      ],
+      "gate": "full regression + canary",
+      "name": "semantic-shared-core"
+    }
+  ],
+  "mechanical": [
+    {
+      "finding_id": "m06",
+      "package": "checkout-core",
+      "path": "src/client.ts",
+      "pattern": "named-argument-rename"
+    },
+    {
+      "finding_id": "m01",
+      "package": "web-checkout",
+      "path": "src/cart.ts",
+      "pattern": "direct-method-rename"
+    },
+    {
+      "finding_id": "m04",
+      "package": "worker",
+      "path": "jobs/reconcile.ts",
+      "pattern": "static-import-rename"
+    }
+  ],
+  "mechanical_count": 3,
+  "migration": "LegacyCheckoutClient to CheckoutClientV2",
+  "rollback_boundary": "Keep the compatibility adapter until batch 3 has passed canary and rollback checks.",
+  "semantic": [
+    {
+      "finding_id": "m03",
+      "package": "checkout-core",
+      "path": "src/retry.ts",
+      "pattern": "custom-retry"
+    },
+    {
+      "finding_id": "m02",
+      "package": "web-checkout",
+      "path": "src/pay.ts",
+      "pattern": "callback-to-async"
+    },
+    {
+      "finding_id": "m07",
+      "package": "web-checkout",
+      "path": "src/provider.ts",
+      "pattern": "dynamic-import"
+    },
+    {
+      "finding_id": "m05",
+      "package": "worker",
+      "path": "jobs/refund.ts",
+      "pattern": "callback-to-async"
+    }
+  ],
+  "semantic_count": 4,
+  "total_findings": 7
+}

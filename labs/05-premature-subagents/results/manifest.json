@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "inputs": {
+    "baseline.json": "6ea39c420e4da456d73abbcec7a1490324c8109ccabe41e271342375f669e52a",
+    "candidate.json": "e59ef92ca87ff5d0eee65717936a7550ad3c3a9d15cb3378e43cce0c88c9ebaa",
+    "cases.jsonl": "0d2ad5eb32bc78962312c7e3e7d116b1b731fddfb819e11fb975468c251fb99a"
+  },
+  "lab": "05-premature-subagents",
+  "model_benchmark": false,
+  "outputs": {
+    "baseline.json": "899ea961db782144ab33661815bc7102984264e977bc44c36fce8aa34e1181d9",
+    "candidate.json": "8c54cc4f1004ae089f950a5be6b0d7b3c7c3425c5264e19674a36221be6ca8bf",
+    "comparison.json": "f046c01f1c2f32ecbaa3f6b9621ba4f5fb3fde51ae22138ef522026e56aa9549"
+  },
+  "result_type": "deterministic-structural-experiment",
+  "review_date": "2026-08-24",
+  "runner_version": "0.4.0"
+}

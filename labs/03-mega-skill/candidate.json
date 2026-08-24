@@ -1,0 +1,32 @@
+{
+  "core": "Identify the trust boundary, select one domain reference, then answer from that reference only.",
+  "mode": "reference",
+  "order": [
+    "oauth",
+    "webhook",
+    "service-account",
+    "mobile"
+  ],
+  "references": {
+    "mobile": {
+      "browser-flow": "Authorization Code with PKCE through the system browser.",
+      "rotation": "Use refresh-token rotation and device-bound revocation where supported.",
+      "session-storage": "Store refresh material in the platform secure enclave or keychain."
+    },
+    "oauth": {
+      "browser-flow": "Authorization Code with PKCE.",
+      "rotation": "Rotate refresh tokens after use and revoke the previous token.",
+      "session-storage": "Server-side session ID in an HttpOnly, Secure cookie."
+    },
+    "service-account": {
+      "browser-flow": "No browser flow; use workload identity or a short-lived client assertion.",
+      "rotation": "Prefer short-lived identity; otherwise rotate credentials with overlap.",
+      "session-storage": "No user session; keep credentials in a managed secret store."
+    },
+    "webhook": {
+      "browser-flow": "No browser flow; use a signed server-to-server delivery.",
+      "rotation": "Accept active and next signing secrets during a bounded rotation window.",
+      "session-storage": "Do not create a browser session; verify the signed request body."
+    }
+  }
+}

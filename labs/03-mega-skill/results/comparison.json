@@ -1,0 +1,29 @@
+{
+  "lab": "03-mega-skill",
+  "metrics": {
+    "mean_irrelevant_tokens": {
+      "baseline": 191.25,
+      "candidate": 2.5,
+      "delta": -188.75,
+      "direction": "lower",
+      "improved": true
+    },
+    "mean_loaded_tokens": {
+      "baseline": 270,
+      "candidate": 87.25,
+      "delta": -182.75,
+      "direction": "lower",
+      "improved": true
+    },
+    "success_rate": {
+      "baseline": 0.25,
+      "candidate": 1.0,
+      "delta": 0.75,
+      "direction": "higher",
+      "improved": true
+    }
+  },
+  "model_benchmark": false,
+  "result_type": "deterministic-structural-experiment",
+  "runner_version": "0.4.0"
+}

@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "inputs": {
+    "baseline.json": "5d97e30e8299653eb22125ac58baf2f07766fcbb7e88ad90fe0762773decd554",
+    "candidate.json": "2e21189adb1abcb97a7da49f9506ddf94ce4be159fd1de35864713f4928b70b9",
+    "cases.jsonl": "8efd6109807ff272699c580326367375e4d9951e08617b1bd0e32605e6ffdc97"
+  },
+  "lab": "04-overlapping-skills",
+  "model_benchmark": false,
+  "outputs": {
+    "baseline.json": "671c2fd9ffaed5b285a5eeab22a1cf7b35ea7ff0a2b4f6e712c87eb9fab6bba7",
+    "candidate.json": "9aa31021040bfe8880affe7f8e6010ce8c055b8e4c511bcca7cc5b7d16333dc5",
+    "comparison.json": "50588a3e4829d3c43b874b088fe582f8a2d44d33d248c16630c1e2f1d9531db9"
+  },
+  "result_type": "deterministic-structural-experiment",
+  "review_date": "2026-08-24",
+  "runner_version": "0.4.0"
+}

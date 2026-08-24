@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1170" height="330" viewBox="0 0 1170 330" role="img" aria-labelledby="title desc">
+<title id="title">Architecture evaluation loop</title>
+<desc id="desc">Observe, change, evaluate, and keep or revert.</desc>
+<style>
+  .bg{fill:#F7F9FC}.card{fill:#FFFFFF;stroke:#CBD5E1;stroke-width:2}
+  .h{font:700 26px system-ui,sans-serif;fill:#172033}.t{font:600 17px system-ui,sans-serif;fill:#172033}
+  .s{font:400 14px system-ui,sans-serif;fill:#5D6B82}.line{stroke:#5D6B82;stroke-width:2;fill:none}
+  .label{font:700 12px ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase}
+  @media(prefers-color-scheme:dark){.bg{fill:#0B1020}.card{fill:#141B2D;stroke:#344155}.h,.t{fill:#F2F5FA}.s{fill:#AAB6CA}.line{stroke:#8391A8}}
+</style>
+<rect class="bg" width="100%" height="100%" rx="24"/>
+<text class="h" x="50" y="54">Architecture change gate</text><rect class="card" x="70" y="115" width="220" height="100" rx="18"/>
+<rect x="70" y="115" width="8" height="100" rx="4" fill="#3B82F6"/>
+<text class="t" x="94" y="151">Observe</text>
+<text class="s" x="94" y="177">Find the actual failure</text><path class="line" d="M290 165 L340 165"/><path d="M332 160 L340 165 L332 170" fill="none" stroke="#5D6B82" stroke-width="2"/><rect class="card" x="340" y="115" width="220" height="100" rx="18"/>
+<rect x="340" y="115" width="8" height="100" rx="4" fill="#0F9D8A"/>
+<text class="t" x="364" y="151">Change one thing</text>
+<text class="s" x="364" y="177">Cheapest suitable primitive</text><path class="line" d="M560 165 L610 165"/><path d="M602 160 L610 165 L602 170" fill="none" stroke="#5D6B82" stroke-width="2"/><rect class="card" x="610" y="115" width="220" height="100" rx="18"/>
+<rect x="610" y="115" width="8" height="100" rx="4" fill="#D97706"/>
+<text class="t" x="634" y="151">Run frozen eval</text>
+<text class="s" x="634" y="177">Same cases and policy</text><path class="line" d="M830 165 L880 165"/><path d="M872 160 L880 165 L872 170" fill="none" stroke="#5D6B82" stroke-width="2"/><rect class="card" x="880" y="115" width="220" height="100" rx="18"/>
+<rect x="880" y="115" width="8" height="100" rx="4" fill="#7C3AED"/>
+<text class="t" x="904" y="151">Keep or revert</text>
+<text class="s" x="904" y="177">Complexity must earn its cost</text><path class="line" d="M990 215 C990 285 180 285 180 215"/><text class="s" x="474" y="278">expand cases after each failure</text>
+</svg>

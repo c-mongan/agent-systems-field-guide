@@ -1,0 +1,498 @@
+{
+  "decisions": [
+    {
+      "case_id": "sk-01",
+      "correct": true,
+      "expected": "pull-request-review",
+      "margin": 6.702824,
+      "runner_up_score": 3.694596,
+      "score": 10.39742,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 3.694596,
+        "documentation-maintenance": 0.0,
+        "production-incident": 1.847298,
+        "pull-request-review": 10.39742,
+        "release-engineering": 0.0
+      },
+      "selected": "pull-request-review"
+    },
+    {
+      "case_id": "sk-02",
+      "correct": true,
+      "expected": "pull-request-review",
+      "margin": 4.505526,
+      "runner_up_score": 0.0,
+      "score": 4.505526,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 0.0,
+        "documentation-maintenance": 0.0,
+        "production-incident": 0.0,
+        "pull-request-review": 4.505526,
+        "release-engineering": 0.0
+      },
+      "selected": "pull-request-review"
+    },
+    {
+      "case_id": "sk-03",
+      "correct": false,
+      "expected": "pull-request-review",
+      "margin": 0.0,
+      "runner_up_score": 1.847298,
+      "score": 1.847298,
+      "scores": {
+        "auth-security-review": 1.847298,
+        "code-migration": 0.0,
+        "documentation-maintenance": 0.0,
+        "production-incident": 0.0,
+        "pull-request-review": 1.847298,
+        "release-engineering": 0.0
+      },
+      "selected": "auth-security-review"
+    },
+    {
+      "case_id": "sk-04",
+      "correct": true,
+      "expected": "pull-request-review",
+      "margin": 2.252763,
+      "runner_up_score": 0.0,
+      "score": 2.252763,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 0.0,
+        "documentation-maintenance": 0.0,
+        "production-incident": 0.0,
+        "pull-request-review": 2.252763,
+        "release-engineering": 0.0
+      },
+      "selected": "pull-request-review"
+    },
+    {
+      "case_id": "sk-05",
+      "correct": true,
+      "expected": "auth-security-review",
+      "margin": 2.252763,
+      "runner_up_score": 0.0,
+      "score": 2.252763,
+      "scores": {
+        "auth-security-review": 2.252763,
+        "code-migration": 0.0,
+        "documentation-maintenance": 0.0,
+        "production-incident": 0.0,
+        "pull-request-review": 0.0,
+        "release-engineering": 0.0
+      },
+      "selected": "auth-security-review"
+    },
+    {
+      "case_id": "sk-06",
+      "correct": true,
+      "expected": "auth-security-review",
+      "margin": 0.0,
+      "runner_up_score": 0.0,
+      "score": 0.0,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 0.0,
+        "documentation-maintenance": 0.0,
+        "production-incident": 0.0,
+        "pull-request-review": 0.0,
+        "release-engineering": 0.0
+      },
+      "selected": "auth-security-review"
+    },
+    {
+      "case_id": "sk-07",
+      "correct": true,
+      "expected": "auth-security-review",
+      "margin": 2.658228,
+      "runner_up_score": 1.847298,
+      "score": 4.505526,
+      "scores": {
+        "auth-security-review": 4.505526,
+        "code-migration": 1.847298,
+        "documentation-maintenance": 0.0,
+        "production-incident": 0.0,
+        "pull-request-review": 1.847298,
+        "release-engineering": 0.0
+      },
+      "selected": "auth-security-review"
+    },
+    {
+      "case_id": "sk-08",
+      "correct": true,
+      "expected": "auth-security-review",
+      "margin": 4.505526,
+      "runner_up_score": 0.0,
+      "score": 4.505526,
+      "scores": {
+        "auth-security-review": 4.505526,
+        "code-migration": 0.0,
+        "documentation-maintenance": 0.0,
+        "production-incident": 0.0,
+        "pull-request-review": 0.0,
+        "release-engineering": 0.0
+      },
+      "selected": "auth-security-review"
+    },
+    {
+      "case_id": "sk-09",
+      "correct": true,
+      "expected": "release-engineering",
+      "margin": 4.855526,
+      "runner_up_score": 3.694596,
+      "score": 8.550122,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 3.694596,
+        "documentation-maintenance": 0.0,
+        "production-incident": 0.0,
+        "pull-request-review": 0.0,
+        "release-engineering": 8.550122
+      },
+      "selected": "release-engineering"
+    },
+    {
+      "case_id": "sk-10",
+      "correct": true,
+      "expected": "release-engineering",
+      "margin": 13.811113,
+      "runner_up_score": 2.252763,
+      "score": 16.063876,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 2.197298,
+        "documentation-maintenance": 0.0,
+        "production-incident": 2.252763,
+        "pull-request-review": 0.0,
+        "release-engineering": 16.063876
+      },
+      "selected": "release-engineering"
+    },
+    {
+      "case_id": "sk-11",
+      "correct": true,
+      "expected": "release-engineering",
+      "margin": 4.505526,
+      "runner_up_score": 0.0,
+      "score": 4.505526,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 0.0,
+        "documentation-maintenance": 0.0,
+        "production-incident": 0.0,
+        "pull-request-review": 0.0,
+        "release-engineering": 4.505526
+      },
+      "selected": "release-engineering"
+    },
+    {
+      "case_id": "sk-12",
+      "correct": true,
+      "expected": "release-engineering",
+      "margin": 2.252763,
+      "runner_up_score": 0.0,
+      "score": 2.252763,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 0.0,
+        "documentation-maintenance": 0.0,
+        "production-incident": 0.0,
+        "pull-request-review": 0.0,
+        "release-engineering": 2.252763
+      },
+      "selected": "release-engineering"
+    },
+    {
+      "case_id": "sk-13",
+      "correct": true,
+      "expected": "production-incident",
+      "margin": 2.252763,
+      "runner_up_score": 2.252763,
+      "score": 4.505526,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 2.252763,
+        "documentation-maintenance": 0.0,
+        "production-incident": 4.505526,
+        "pull-request-review": 0.0,
+        "release-engineering": 0.0
+      },
+      "selected": "production-incident"
+    },
+    {
+      "case_id": "sk-14",
+      "correct": true,
+      "expected": "production-incident",
+      "margin": 6.758289,
+      "runner_up_score": 0.0,
+      "score": 6.758289,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 0.0,
+        "documentation-maintenance": 0.0,
+        "production-incident": 6.758289,
+        "pull-request-review": 0.0,
+        "release-engineering": 0.0
+      },
+      "selected": "production-incident"
+    },
+    {
+      "case_id": "sk-15",
+      "correct": true,
+      "expected": "production-incident",
+      "margin": 2.602763,
+      "runner_up_score": 0.0,
+      "score": 2.602763,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 0.0,
+        "documentation-maintenance": 0.0,
+        "production-incident": 2.602763,
+        "pull-request-review": 0.0,
+        "release-engineering": 0.0
+      },
+      "selected": "production-incident"
+    },
+    {
+      "case_id": "sk-16",
+      "correct": true,
+      "expected": "production-incident",
+      "margin": 4.505526,
+      "runner_up_score": 0.0,
+      "score": 4.505526,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 0.0,
+        "documentation-maintenance": 0.0,
+        "production-incident": 4.505526,
+        "pull-request-review": 0.0,
+        "release-engineering": 0.0
+      },
+      "selected": "production-incident"
+    },
+    {
+      "case_id": "sk-17",
+      "correct": true,
+      "expected": "code-migration",
+      "margin": 6.352824,
+      "runner_up_score": 1.847298,
+      "score": 8.200122,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 8.200122,
+        "documentation-maintenance": 0.0,
+        "production-incident": 0.0,
+        "pull-request-review": 1.847298,
+        "release-engineering": 1.847298
+      },
+      "selected": "code-migration"
+    },
+    {
+      "case_id": "sk-18",
+      "correct": true,
+      "expected": "code-migration",
+      "margin": 4.855526,
+      "runner_up_score": 1.847298,
+      "score": 6.702824,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 6.702824,
+        "documentation-maintenance": 0.0,
+        "production-incident": 0.0,
+        "pull-request-review": 0.0,
+        "release-engineering": 1.847298
+      },
+      "selected": "code-migration"
+    },
+    {
+      "case_id": "sk-19",
+      "correct": true,
+      "expected": "code-migration",
+      "margin": 4.855526,
+      "runner_up_score": 1.847298,
+      "score": 6.702824,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 6.702824,
+        "documentation-maintenance": 0.0,
+        "production-incident": 0.0,
+        "pull-request-review": 1.847298,
+        "release-engineering": 0.0
+      },
+      "selected": "code-migration"
+    },
+    {
+      "case_id": "sk-20",
+      "correct": true,
+      "expected": "code-migration",
+      "margin": 2.252763,
+      "runner_up_score": 1.847298,
+      "score": 4.100061,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 4.100061,
+        "documentation-maintenance": 0.0,
+        "production-incident": 0.0,
+        "pull-request-review": 1.847298,
+        "release-engineering": 0.0
+      },
+      "selected": "code-migration"
+    },
+    {
+      "case_id": "sk-21",
+      "correct": true,
+      "expected": "documentation-maintenance",
+      "margin": 2.252763,
+      "runner_up_score": 0.0,
+      "score": 2.252763,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 0.0,
+        "documentation-maintenance": 2.252763,
+        "production-incident": 0.0,
+        "pull-request-review": 0.0,
+        "release-engineering": 0.0
+      },
+      "selected": "documentation-maintenance"
+    },
+    {
+      "case_id": "sk-22",
+      "correct": true,
+      "expected": "documentation-maintenance",
+      "margin": 0.405465,
+      "runner_up_score": 1.847298,
+      "score": 2.252763,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 1.847298,
+        "documentation-maintenance": 2.252763,
+        "production-incident": 0.0,
+        "pull-request-review": 1.847298,
+        "release-engineering": 0.0
+      },
+      "selected": "documentation-maintenance"
+    },
+    {
+      "case_id": "sk-23",
+      "correct": true,
+      "expected": "documentation-maintenance",
+      "margin": 4.505526,
+      "runner_up_score": 0.0,
+      "score": 4.505526,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 0.0,
+        "documentation-maintenance": 4.505526,
+        "production-incident": 0.0,
+        "pull-request-review": 0.0,
+        "release-engineering": 0.0
+      },
+      "selected": "documentation-maintenance"
+    },
+    {
+      "case_id": "sk-24",
+      "correct": true,
+      "expected": "documentation-maintenance",
+      "margin": 2.252763,
+      "runner_up_score": 0.0,
+      "score": 2.252763,
+      "scores": {
+        "auth-security-review": 0.0,
+        "code-migration": 0.0,
+        "documentation-maintenance": 2.252763,
+        "production-incident": 0.0,
+        "pull-request-review": 0.0,
+        "release-engineering": 0.0
+      },
+      "selected": "documentation-maintenance"
+    }
+  ],
+  "metrics": {
+    "accuracy": 0.958333,
+    "ambiguity_rate": 0.125,
+    "catalog_items": 6,
+    "max_pairwise_overlap": 0.12,
+    "mean_margin": 3.839794,
+    "mean_pairwise_overlap": 0.021136
+  },
+  "pairwise_overlap": [
+    {
+      "jaccard": 0.08,
+      "left": "pull-request-review",
+      "right": "auth-security-review"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "pull-request-review",
+      "right": "release-engineering"
+    },
+    {
+      "jaccard": 0.037037,
+      "left": "pull-request-review",
+      "right": "production-incident"
+    },
+    {
+      "jaccard": 0.08,
+      "left": "pull-request-review",
+      "right": "code-migration"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "pull-request-review",
+      "right": "documentation-maintenance"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "auth-security-review",
+      "right": "release-engineering"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "auth-security-review",
+      "right": "production-incident"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "auth-security-review",
+      "right": "code-migration"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "auth-security-review",
+      "right": "documentation-maintenance"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "release-engineering",
+      "right": "production-incident"
+    },
+    {
+      "jaccard": 0.12,
+      "left": "release-engineering",
+      "right": "code-migration"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "release-engineering",
+      "right": "documentation-maintenance"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "production-incident",
+      "right": "code-migration"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "production-incident",
+      "right": "documentation-maintenance"
+    },
+    {
+      "jaccard": 0.0,
+      "left": "code-migration",
+      "right": "documentation-maintenance"
+    }
+  ],
+  "variant": "candidate"
+}

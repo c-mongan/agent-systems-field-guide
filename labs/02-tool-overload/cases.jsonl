@@ -1,0 +1,12 @@
+{"case_id": "to-01", "expected": "repo-code-search", "prompt": "Find every call site of LegacyCheckoutClient in the repository."}
+{"case_id": "to-02", "expected": "repo-code-search", "prompt": "Search source files for imports of the old auth package."}
+{"case_id": "to-03", "expected": "dependency-audit", "prompt": "Which transitive package brings in the vulnerable XML parser?"}
+{"case_id": "to-04", "expected": "dependency-audit", "prompt": "List dependencies with incompatible licences and known vulnerable versions."}
+{"case_id": "to-05", "expected": "incident-event-query", "prompt": "Query error events for trace 8f2a during the 09:00 UTC incident window."}
+{"case_id": "to-06", "expected": "incident-event-query", "prompt": "Find payment-provider timeouts by request ID and timestamp."}
+{"case_id": "to-07", "expected": "release-plan-build", "prompt": "Calculate publish order and version propagation for changed monorepo packages."}
+{"case_id": "to-08", "expected": "release-plan-build", "prompt": "Build release notes and package bumps for the next coordinated release."}
+{"case_id": "to-09", "expected": "security-config-check", "prompt": "Check OAuth redirect URIs, cookie flags, and session expiry against policy."}
+{"case_id": "to-10", "expected": "security-config-check", "prompt": "Validate that no secret is stored in client configuration."}
+{"case_id": "to-11", "expected": "documentation-link-check", "prompt": "Find broken relative links and missing Markdown anchors after the docs move."}
+{"case_id": "to-12", "expected": "documentation-link-check", "prompt": "Check the documentation tree for links to files that no longer exist."}

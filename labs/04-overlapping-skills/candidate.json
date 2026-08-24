@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "description": "Assess a pull request diff for correctness, regressions, tests, API compatibility, and maintainability. Use for PR or code review.",
+      "name": "pull-request-review"
+    },
+    {
+      "description": "Assess OAuth, OIDC, sessions, cookies, redirects, secrets, trust boundaries, and authentication controls. Use for identity security review.",
+      "name": "auth-security-review"
+    },
+    {
+      "description": "Plan semantic versions, dependency propagation, changelog entries, publish order, release gates, and rollback. Use for package releases.",
+      "name": "release-engineering"
+    },
+    {
+      "description": "Build a timestamped evidence chain for an outage, latency spike, failed request, provider fault, or service degradation. Use for live incidents.",
+      "name": "production-incident"
+    },
+    {
+      "description": "Plan a deprecated API or framework migration using mechanical transforms, semantic rewrites, compatibility checks, batches, and rollback.",
+      "name": "code-migration"
+    },
+    {
+      "description": "Edit technical guides and examples, preserve factual meaning, and validate Markdown links or anchors. Use for documentation work.",
+      "name": "documentation-maintenance"
+    }
+  ]
+}

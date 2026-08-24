@@ -1,0 +1,83 @@
+{
+  "cases": [
+    {
+      "active_skill": "pull-request-review",
+      "budget_overflow": true,
+      "case_id": "ec-01",
+      "initial_tokens": 12000,
+      "irrelevant_tokens": 44000,
+      "relevant_tokens": 2600,
+      "total_tokens": 46600
+    },
+    {
+      "active_skill": "auth-security-review",
+      "budget_overflow": true,
+      "case_id": "ec-02",
+      "initial_tokens": 12000,
+      "irrelevant_tokens": 41900,
+      "relevant_tokens": 4700,
+      "total_tokens": 46600
+    },
+    {
+      "active_skill": "release-engineering",
+      "budget_overflow": true,
+      "case_id": "ec-03",
+      "initial_tokens": 12000,
+      "irrelevant_tokens": 43600,
+      "relevant_tokens": 3000,
+      "total_tokens": 46600
+    },
+    {
+      "active_skill": "production-incident",
+      "budget_overflow": true,
+      "case_id": "ec-04",
+      "initial_tokens": 12000,
+      "irrelevant_tokens": 41000,
+      "relevant_tokens": 5600,
+      "total_tokens": 46600
+    },
+    {
+      "active_skill": "code-migration",
+      "budget_overflow": true,
+      "case_id": "ec-05",
+      "initial_tokens": 12000,
+      "irrelevant_tokens": 42700,
+      "relevant_tokens": 3900,
+      "total_tokens": 46600
+    },
+    {
+      "active_skill": "documentation-maintenance",
+      "budget_overflow": true,
+      "case_id": "ec-06",
+      "initial_tokens": 12000,
+      "irrelevant_tokens": 44700,
+      "relevant_tokens": 1900,
+      "total_tokens": 46600
+    },
+    {
+      "active_skill": "production-incident",
+      "budget_overflow": true,
+      "case_id": "ec-07",
+      "initial_tokens": 12000,
+      "irrelevant_tokens": 42900,
+      "relevant_tokens": 3700,
+      "total_tokens": 46600
+    },
+    {
+      "active_skill": "auth-security-review",
+      "budget_overflow": true,
+      "case_id": "ec-08",
+      "initial_tokens": 12000,
+      "irrelevant_tokens": 43400,
+      "relevant_tokens": 3200,
+      "total_tokens": 46600
+    }
+  ],
+  "metrics": {
+    "budget_overflow_rate": 1.0,
+    "mean_initial_tokens": 12000,
+    "mean_irrelevant_tokens": 43025,
+    "mean_total_tokens": 46600
+  },
+  "variant": "baseline"
+}

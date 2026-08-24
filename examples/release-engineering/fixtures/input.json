@@ -1,0 +1,13 @@
+{
+  "release_id":"2026-08-sdk",
+  "packages":[
+    {"name":"core","dependencies":[]},
+    {"name":"http-client","dependencies":["core"]},
+    {"name":"auth-plugin","dependencies":["core","http-client"]},
+    {"name":"cli","dependencies":["core","auth-plugin"]}
+  ],
+  "changes":[
+    {"change_id":"c01","package":"core","bump":"minor"},
+    {"change_id":"c02","package":"auth-plugin","bump":"patch"}
+  ]
+}

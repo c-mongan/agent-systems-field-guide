@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agent architecture evaluation record",
+  "type": "object",
+  "required": ["case_id", "success"],
+  "properties": {
+    "case_id": {"type": "string", "minLength": 1},
+    "success": {"type": "boolean"},
+    "latency_ms": {"type": "number", "minimum": 0},
+    "input_tokens": {"type": "integer", "minimum": 0},
+    "output_tokens": {"type": "integer", "minimum": 0},
+    "tool_calls": {"type": "integer", "minimum": 0},
+    "metadata": {"type": "object"}
+  },
+  "additionalProperties": false
+}

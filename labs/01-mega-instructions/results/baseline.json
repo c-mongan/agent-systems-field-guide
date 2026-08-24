@@ -1,0 +1,240 @@
+{
+  "cases": [
+    {
+      "case_id": "mi-01",
+      "conflict_hits": [
+        "release-control"
+      ],
+      "irrelevant_tokens": 274,
+      "loaded": [
+        "customer-response",
+        "data-analysis",
+        "documentation-editing",
+        "incident-triage",
+        "migration-planning",
+        "pull-request-review",
+        "release-control",
+        "security-assessment"
+      ],
+      "loaded_tokens": 344,
+      "relevant_tokens": 70,
+      "required": [
+        "pull-request-review"
+      ],
+      "success": false
+    },
+    {
+      "case_id": "mi-02",
+      "conflict_hits": [
+        "migration-planning",
+        "pull-request-review"
+      ],
+      "irrelevant_tokens": 273,
+      "loaded": [
+        "customer-response",
+        "data-analysis",
+        "documentation-editing",
+        "incident-triage",
+        "migration-planning",
+        "pull-request-review",
+        "release-control",
+        "security-assessment"
+      ],
+      "loaded_tokens": 344,
+      "relevant_tokens": 71,
+      "required": [
+        "release-control"
+      ],
+      "success": false
+    },
+    {
+      "case_id": "mi-03",
+      "conflict_hits": [
+        "customer-response",
+        "migration-planning"
+      ],
+      "irrelevant_tokens": 266,
+      "loaded": [
+        "customer-response",
+        "data-analysis",
+        "documentation-editing",
+        "incident-triage",
+        "migration-planning",
+        "pull-request-review",
+        "release-control",
+        "security-assessment"
+      ],
+      "loaded_tokens": 344,
+      "relevant_tokens": 78,
+      "required": [
+        "incident-triage"
+      ],
+      "success": false
+    },
+    {
+      "case_id": "mi-04",
+      "conflict_hits": [],
+      "irrelevant_tokens": 272,
+      "loaded": [
+        "customer-response",
+        "data-analysis",
+        "documentation-editing",
+        "incident-triage",
+        "migration-planning",
+        "pull-request-review",
+        "release-control",
+        "security-assessment"
+      ],
+      "loaded_tokens": 344,
+      "relevant_tokens": 72,
+      "required": [
+        "security-assessment"
+      ],
+      "success": true
+    },
+    {
+      "case_id": "mi-05",
+      "conflict_hits": [
+        "release-control"
+      ],
+      "irrelevant_tokens": 273,
+      "loaded": [
+        "customer-response",
+        "data-analysis",
+        "documentation-editing",
+        "incident-triage",
+        "migration-planning",
+        "pull-request-review",
+        "release-control",
+        "security-assessment"
+      ],
+      "loaded_tokens": 344,
+      "relevant_tokens": 71,
+      "required": [
+        "migration-planning"
+      ],
+      "success": false
+    },
+    {
+      "case_id": "mi-06",
+      "conflict_hits": [],
+      "irrelevant_tokens": 273,
+      "loaded": [
+        "customer-response",
+        "data-analysis",
+        "documentation-editing",
+        "incident-triage",
+        "migration-planning",
+        "pull-request-review",
+        "release-control",
+        "security-assessment"
+      ],
+      "loaded_tokens": 344,
+      "relevant_tokens": 71,
+      "required": [
+        "documentation-editing"
+      ],
+      "success": true
+    },
+    {
+      "case_id": "mi-07",
+      "conflict_hits": [
+        "documentation-editing"
+      ],
+      "irrelevant_tokens": 226,
+      "loaded": [
+        "customer-response",
+        "data-analysis",
+        "documentation-editing",
+        "incident-triage",
+        "migration-planning",
+        "pull-request-review",
+        "release-control",
+        "security-assessment"
+      ],
+      "loaded_tokens": 344,
+      "relevant_tokens": 118,
+      "required": [
+        "customer-response",
+        "incident-triage"
+      ],
+      "success": false
+    },
+    {
+      "case_id": "mi-08",
+      "conflict_hits": [],
+      "irrelevant_tokens": 268,
+      "loaded": [
+        "customer-response",
+        "data-analysis",
+        "documentation-editing",
+        "incident-triage",
+        "migration-planning",
+        "pull-request-review",
+        "release-control",
+        "security-assessment"
+      ],
+      "loaded_tokens": 344,
+      "relevant_tokens": 76,
+      "required": [
+        "data-analysis"
+      ],
+      "success": true
+    },
+    {
+      "case_id": "mi-09",
+      "conflict_hits": [
+        "release-control"
+      ],
+      "irrelevant_tokens": 236,
+      "loaded": [
+        "customer-response",
+        "data-analysis",
+        "documentation-editing",
+        "incident-triage",
+        "migration-planning",
+        "pull-request-review",
+        "release-control",
+        "security-assessment"
+      ],
+      "loaded_tokens": 344,
+      "relevant_tokens": 108,
+      "required": [
+        "pull-request-review",
+        "security-assessment"
+      ],
+      "success": false
+    },
+    {
+      "case_id": "mi-10",
+      "conflict_hits": [
+        "migration-planning"
+      ],
+      "irrelevant_tokens": 236,
+      "loaded": [
+        "customer-response",
+        "data-analysis",
+        "documentation-editing",
+        "incident-triage",
+        "migration-planning",
+        "pull-request-review",
+        "release-control",
+        "security-assessment"
+      ],
+      "loaded_tokens": 344,
+      "relevant_tokens": 108,
+      "required": [
+        "documentation-editing",
+        "release-control"
+      ],
+      "success": false
+    }
+  ],
+  "metrics": {
+    "mean_conflict_hits": 0.9,
+    "mean_irrelevant_tokens": 259.7,
+    "mean_loaded_tokens": 344,
+    "success_rate": 0.3
+  },
+  "variant": "baseline"
+}

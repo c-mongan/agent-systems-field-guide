@@ -1,0 +1,24 @@
+{"case_id": "sk-01", "expected": "pull-request-review", "prompt": "Review this pull request for missing tests and an API compatibility regression."}
+{"case_id": "sk-02", "expected": "pull-request-review", "prompt": "Check the PR diff for a race condition and unsafe error handling."}
+{"case_id": "sk-03", "expected": "pull-request-review", "prompt": "Assess whether this refactor changes public behaviour or needs more tests."}
+{"case_id": "sk-04", "expected": "pull-request-review", "prompt": "Review a code change that retries payments and could duplicate a charge."}
+{"case_id": "sk-05", "expected": "auth-security-review", "prompt": "Review our OAuth redirect URI allowlist and PKCE enforcement."}
+{"case_id": "sk-06", "expected": "auth-security-review", "prompt": "Check Secure, HttpOnly, SameSite, session expiry, and refresh rotation."}
+{"case_id": "sk-07", "expected": "auth-security-review", "prompt": "Threat-model the trust boundary between browser, API, and identity provider."}
+{"case_id": "sk-08", "expected": "auth-security-review", "prompt": "Find authentication secrets or bearer tokens exposed to client code."}
+{"case_id": "sk-09", "expected": "release-engineering", "prompt": "Plan semantic version bumps and dependency propagation across the monorepo."}
+{"case_id": "sk-10", "expected": "release-engineering", "prompt": "Build the package publish order, changelog, release gates, and rollback."}
+{"case_id": "sk-11", "expected": "release-engineering", "prompt": "Decide whether these package changes require major, minor, or patch releases."}
+{"case_id": "sk-12", "expected": "release-engineering", "prompt": "Prepare a coordinated library release without publishing in the wrong order."}
+{"case_id": "sk-13", "expected": "production-incident", "prompt": "Investigate checkout latency using trace IDs, timestamps, database waits, and provider events."}
+{"case_id": "sk-14", "expected": "production-incident", "prompt": "Build an evidence timeline for a production outage and propose containment."}
+{"case_id": "sk-15", "expected": "production-incident", "prompt": "Correlate failed requests across gateway, application, database, and payment provider."}
+{"case_id": "sk-16", "expected": "production-incident", "prompt": "Triage a live service degradation without guessing the root cause."}
+{"case_id": "sk-17", "expected": "code-migration", "prompt": "Plan migration from a deprecated client API across 180 files."}
+{"case_id": "sk-18", "expected": "code-migration", "prompt": "Separate safe AST transforms from semantic rewrites and rollout batches."}
+{"case_id": "sk-19", "expected": "code-migration", "prompt": "Design compatibility checks and rollback for a framework upgrade."}
+{"case_id": "sk-20", "expected": "code-migration", "prompt": "Inventory old API call sites and group the migration by risk."}
+{"case_id": "sk-21", "expected": "documentation-maintenance", "prompt": "Rewrite the operator guide and fix broken relative Markdown links."}
+{"case_id": "sk-22", "expected": "documentation-maintenance", "prompt": "Update examples after an API rename without inventing supported behaviour."}
+{"case_id": "sk-23", "expected": "documentation-maintenance", "prompt": "Check documentation anchors and links after moving the reference pages."}
+{"case_id": "sk-24", "expected": "documentation-maintenance", "prompt": "Make this technical guide easier to read while preserving exact commands."}

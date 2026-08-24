@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "inputs": {
+    "baseline.json": "9ad09d8b4a63cc9f0a6e2d5f9a10c687953a9e52811a56d74e83ffde58d259a4",
+    "candidate.json": "15b56c58b5cd74d3b59705c04f289ce0e5638c0028ebf59f8067148a657fb740",
+    "cases.jsonl": "1a8f2df0cd45fed0d077553b9c2908ba4a81b8899e7c3c15e7619ddff8efe52d"
+  },
+  "lab": "02-tool-overload",
+  "model_benchmark": false,
+  "outputs": {
+    "baseline.json": "fcda3c5c5a74d34e3c7a2039a501743d7bace8f16ced009f2dbbc1c55c637b0e",
+    "candidate.json": "ec0bf723b98f1d6f22952f0f01d92df13a3cbdd4402f59c2417612ca79330059",
+    "comparison.json": "66157793987753b135cb845aaf9844b14a4ac199ac1e711a670e40374cf2aa1a"
+  },
+  "result_type": "deterministic-structural-experiment",
+  "review_date": "2026-08-24",
+  "runner_version": "0.4.0"
+}

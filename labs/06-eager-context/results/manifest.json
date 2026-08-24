@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "inputs": {
+    "baseline.json": "410ab197fbce1b245758f03e58490bc22cabab76a3ca018695aaec690f384130",
+    "candidate.json": "025f4f71a495b834ce6aaf40970027b027d2b1007dac94005a7d9b452b60da49",
+    "cases.jsonl": "7ee3948ee3a2a8d1225967b8a928513aa38eb40caba133361cbd3a79dd008c37"
+  },
+  "lab": "06-eager-context",
+  "model_benchmark": false,
+  "outputs": {
+    "baseline.json": "ba5de0f3331ec7fe8ffae4973e83f956de4d251243e18569fbeebe9384d7a286",
+    "candidate.json": "1442237db6d6cb5c71aa78db94780f39f78aac444e95dad2f68e24aae95723cb",
+    "comparison.json": "56246bd1347935cb069ef93784841722900507a0e3aaf71bbc3d4137a6452063"
+  },
+  "result_type": "deterministic-structural-experiment",
+  "review_date": "2026-08-24",
+  "runner_version": "0.4.0"
+}

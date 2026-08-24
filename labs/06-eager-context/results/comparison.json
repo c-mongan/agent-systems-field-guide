@@ -1,0 +1,36 @@
+{
+  "lab": "06-eager-context",
+  "metrics": {
+    "budget_overflow_rate": {
+      "baseline": 1.0,
+      "candidate": 0.0,
+      "delta": -1.0,
+      "direction": "lower",
+      "improved": true
+    },
+    "mean_initial_tokens": {
+      "baseline": 12000,
+      "candidate": 388,
+      "delta": -11612,
+      "direction": "lower",
+      "improved": true
+    },
+    "mean_irrelevant_tokens": {
+      "baseline": 43025,
+      "candidate": 388,
+      "delta": -42637,
+      "direction": "lower",
+      "improved": true
+    },
+    "mean_total_tokens": {
+      "baseline": 46600,
+      "candidate": 3963,
+      "delta": -42637,
+      "direction": "lower",
+      "improved": true
+    }
+  },
+  "model_benchmark": false,
+  "result_type": "deterministic-structural-experiment",
+  "runner_version": "0.4.0"
+}

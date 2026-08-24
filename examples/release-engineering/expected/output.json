@@ -1,0 +1,45 @@
+{
+  "gates": [
+    "all package tests pass",
+    "generated versions match plan",
+    "dry-run publish succeeds",
+    "rollback artefacts exist"
+  ],
+  "packages": [
+    {
+      "bump": "minor",
+      "package": "core",
+      "reasons": [
+        "c01"
+      ]
+    },
+    {
+      "bump": "patch",
+      "package": "http-client",
+      "reasons": [
+        "dependency:core"
+      ]
+    },
+    {
+      "bump": "patch",
+      "package": "auth-plugin",
+      "reasons": [
+        "c02"
+      ]
+    },
+    {
+      "bump": "patch",
+      "package": "cli",
+      "reasons": [
+        "dependency:core"
+      ]
+    }
+  ],
+  "publish_order": [
+    "core",
+    "http-client",
+    "auth-plugin",
+    "cli"
+  ],
+  "release_id": "2026-08-sdk"
+}

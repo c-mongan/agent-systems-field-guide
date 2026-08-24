@@ -1,0 +1,4 @@
+coverage==7.13.3
+mypy==1.19.0
+pytest==9.0.2
+ruff==0.14.10

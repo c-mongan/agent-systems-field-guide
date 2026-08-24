@@ -1,0 +1,10 @@
+{"branches": 8, "case_id": "sa-01", "kind": "mechanical", "work_ms": 260}
+{"branches": 20, "case_id": "sa-02", "kind": "mechanical", "work_ms": 400}
+{"branches": 5, "case_id": "sa-03", "kind": "mechanical", "work_ms": 180}
+{"branches": 12, "case_id": "sa-04", "kind": "mechanical", "work_ms": 320}
+{"branches": 3, "case_id": "sa-05", "kind": "independent-reasoning", "work_ms": 1600}
+{"branches": 2, "case_id": "sa-06", "kind": "independent-reasoning", "work_ms": 1200}
+{"branches": 30, "case_id": "sa-07", "kind": "mechanical", "work_ms": 500}
+{"branches": 4, "case_id": "sa-08", "kind": "independent-reasoning", "work_ms": 2100}
+{"branches": 6, "case_id": "sa-09", "kind": "mechanical", "work_ms": 220}
+{"branches": 3, "case_id": "sa-10", "kind": "independent-reasoning", "work_ms": 1750}

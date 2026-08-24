@@ -1,0 +1,6 @@
+{"case_id":"ev-01","success":true,"latency_ms":1450,"input_tokens":4200,"output_tokens":340,"tool_calls":8,"metadata":{"fixture":true}}
+{"case_id":"ev-02","success":false,"latency_ms":1710,"input_tokens":5100,"output_tokens":290,"tool_calls":11,"metadata":{"fixture":true}}
+{"case_id":"ev-03","success":true,"latency_ms":1320,"input_tokens":3900,"output_tokens":310,"tool_calls":7,"metadata":{"fixture":true}}
+{"case_id":"ev-04","success":false,"latency_ms":1860,"input_tokens":5700,"output_tokens":410,"tool_calls":13,"metadata":{"fixture":true}}
+{"case_id":"ev-05","success":true,"latency_ms":1510,"input_tokens":4400,"output_tokens":360,"tool_calls":9,"metadata":{"fixture":true}}
+{"case_id":"ev-06","success":true,"latency_ms":1390,"input_tokens":4050,"output_tokens":300,"tool_calls":8,"metadata":{"fixture":true}}

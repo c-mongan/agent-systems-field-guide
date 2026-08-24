@@ -1,0 +1,202 @@
+{
+  "cases": [
+    {
+      "answer": "Server-side session ID in an HttpOnly, Secure cookie.",
+      "case_id": "ms-01",
+      "domain": "oauth",
+      "expected": "Server-side session ID in an HttpOnly, Secure cookie.",
+      "irrelevant_tokens": 201,
+      "key": "session-storage",
+      "loaded_references": [
+        "oauth",
+        "webhook",
+        "service-account",
+        "mobile"
+      ],
+      "loaded_tokens": 270,
+      "success": true
+    },
+    {
+      "answer": "Authorization Code with PKCE.",
+      "case_id": "ms-02",
+      "domain": "oauth",
+      "expected": "Authorization Code with PKCE.",
+      "irrelevant_tokens": 201,
+      "key": "browser-flow",
+      "loaded_references": [
+        "oauth",
+        "webhook",
+        "service-account",
+        "mobile"
+      ],
+      "loaded_tokens": 270,
+      "success": true
+    },
+    {
+      "answer": "Rotate refresh tokens after use and revoke the previous token.",
+      "case_id": "ms-03",
+      "domain": "oauth",
+      "expected": "Rotate refresh tokens after use and revoke the previous token.",
+      "irrelevant_tokens": 201,
+      "key": "rotation",
+      "loaded_references": [
+        "oauth",
+        "webhook",
+        "service-account",
+        "mobile"
+      ],
+      "loaded_tokens": 270,
+      "success": true
+    },
+    {
+      "answer": "Server-side session ID in an HttpOnly, Secure cookie.",
+      "case_id": "ms-04",
+      "domain": "webhook",
+      "expected": "Do not create a browser session; verify the signed request body.",
+      "irrelevant_tokens": 189,
+      "key": "session-storage",
+      "loaded_references": [
+        "oauth",
+        "webhook",
+        "service-account",
+        "mobile"
+      ],
+      "loaded_tokens": 270,
+      "success": false
+    },
+    {
+      "answer": "Authorization Code with PKCE.",
+      "case_id": "ms-05",
+      "domain": "webhook",
+      "expected": "No browser flow; use a signed server-to-server delivery.",
+      "irrelevant_tokens": 189,
+      "key": "browser-flow",
+      "loaded_references": [
+        "oauth",
+        "webhook",
+        "service-account",
+        "mobile"
+      ],
+      "loaded_tokens": 270,
+      "success": false
+    },
+    {
+      "answer": "Rotate refresh tokens after use and revoke the previous token.",
+      "case_id": "ms-06",
+      "domain": "webhook",
+      "expected": "Accept active and next signing secrets during a bounded rotation window.",
+      "irrelevant_tokens": 189,
+      "key": "rotation",
+      "loaded_references": [
+        "oauth",
+        "webhook",
+        "service-account",
+        "mobile"
+      ],
+      "loaded_tokens": 270,
+      "success": false
+    },
+    {
+      "answer": "Server-side session ID in an HttpOnly, Secure cookie.",
+      "case_id": "ms-07",
+      "domain": "service-account",
+      "expected": "No user session; keep credentials in a managed secret store.",
+      "irrelevant_tokens": 186,
+      "key": "session-storage",
+      "loaded_references": [
+        "oauth",
+        "webhook",
+        "service-account",
+        "mobile"
+      ],
+      "loaded_tokens": 270,
+      "success": false
+    },
+    {
+      "answer": "Authorization Code with PKCE.",
+      "case_id": "ms-08",
+      "domain": "service-account",
+      "expected": "No browser flow; use workload identity or a short-lived client assertion.",
+      "irrelevant_tokens": 186,
+      "key": "browser-flow",
+      "loaded_references": [
+        "oauth",
+        "webhook",
+        "service-account",
+        "mobile"
+      ],
+      "loaded_tokens": 270,
+      "success": false
+    },
+    {
+      "answer": "Rotate refresh tokens after use and revoke the previous token.",
+      "case_id": "ms-09",
+      "domain": "service-account",
+      "expected": "Prefer short-lived identity; otherwise rotate credentials with overlap.",
+      "irrelevant_tokens": 186,
+      "key": "rotation",
+      "loaded_references": [
+        "oauth",
+        "webhook",
+        "service-account",
+        "mobile"
+      ],
+      "loaded_tokens": 270,
+      "success": false
+    },
+    {
+      "answer": "Server-side session ID in an HttpOnly, Secure cookie.",
+      "case_id": "ms-10",
+      "domain": "mobile",
+      "expected": "Store refresh material in the platform secure enclave or keychain.",
+      "irrelevant_tokens": 189,
+      "key": "session-storage",
+      "loaded_references": [
+        "oauth",
+        "webhook",
+        "service-account",
+        "mobile"
+      ],
+      "loaded_tokens": 270,
+      "success": false
+    },
+    {
+      "answer": "Authorization Code with PKCE.",
+      "case_id": "ms-11",
+      "domain": "mobile",
+      "expected": "Authorization Code with PKCE through the system browser.",
+      "irrelevant_tokens": 189,
+      "key": "browser-flow",
+      "loaded_references": [
+        "oauth",
+        "webhook",
+        "service-account",
+        "mobile"
+      ],
+      "loaded_tokens": 270,
+      "success": false
+    },
+    {
+      "answer": "Rotate refresh tokens after use and revoke the previous token.",
+      "case_id": "ms-12",
+      "domain": "mobile",
+      "expected": "Use refresh-token rotation and device-bound revocation where supported.",
+      "irrelevant_tokens": 189,
+      "key": "rotation",
+      "loaded_references": [
+        "oauth",
+        "webhook",
+        "service-account",
+        "mobile"
+      ],
+      "loaded_tokens": 270,
+      "success": false
+    }
+  ],
+  "metrics": {
+    "mean_irrelevant_tokens": 191.25,
+    "mean_loaded_tokens": 270,
+    "success_rate": 0.25
+  },
+  "variant": "baseline"
+}

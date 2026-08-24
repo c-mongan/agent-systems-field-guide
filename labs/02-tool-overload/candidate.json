@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "description": "Find symbols, imports, call sites, and text inside repository source files.",
+      "name": "repo-code-search"
+    },
+    {
+      "description": "List package dependencies, vulnerable versions, licence metadata, and update candidates.",
+      "name": "dependency-audit"
+    },
+    {
+      "description": "Query timestamped production events by service, request ID, trace ID, severity, or time window.",
+      "name": "incident-event-query"
+    },
+    {
+      "description": "Calculate package version bumps, dependency propagation, publish order, and release notes.",
+      "name": "release-plan-build"
+    },
+    {
+      "description": "Validate OAuth, cookie, secret, session, CORS, and redirect configuration against a policy.",
+      "name": "security-config-check"
+    },
+    {
+      "description": "Check Markdown documentation for broken local links, missing anchors, and moved files.",
+      "name": "documentation-link-check"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "inputs": {
+    "baseline.json": "595c22e6187b2d905d13c66f622769304dc38527ffc824f33db40a5b19d5069a",
+    "candidate.json": "98d90fa9dd96cf9c56a3cbbeab32e57a174d6651f28e55b0651ac5f140f96984",
+    "cases.jsonl": "e521e760243429f385a3fe7ed395a800af5747269d29925bd3b1f32ca5473acd"
+  },
+  "lab": "03-mega-skill",
+  "model_benchmark": false,
+  "outputs": {
+    "baseline.json": "0971da6be56e678541a0f361fd5eae4cf7b5d6c89bd5aac74ed66fc7cca1c4c4",
+    "candidate.json": "4a3456982e590eac3ebafe988c4c54f85b4de48fc81075118198c27d0472c793",
+    "comparison.json": "ccd3e4820d38e6fc4b96613eb4c5f90fd076a2d1f82b0b17bfe3aaad4c669d38"
+  },
+  "result_type": "deterministic-structural-experiment",
+  "review_date": "2026-08-24",
+  "runner_version": "0.4.0"
+}

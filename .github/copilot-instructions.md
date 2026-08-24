@@ -1,0 +1,1 @@
+`AGENTS.md` is canonical and takes precedence over this Copilot adapter. Keep core guidance vendor-neutral. Put Copilot-only behaviour in `docs/vendor-matrix.md` or adapter documentation. Describe a provider evaluation as live only when its raw trace, exact model ID, configuration, and date are committed.

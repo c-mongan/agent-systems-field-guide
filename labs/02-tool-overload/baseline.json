@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "description": "Search and inspect project code, files, dependencies, incidents, releases, security configuration, and documentation.",
+      "name": "repo-code-search"
+    },
+    {
+      "description": "Inspect project code, package dependencies, files, releases, security configuration, incidents, and update information.",
+      "name": "dependency-audit"
+    },
+    {
+      "description": "Query and inspect project events, code, dependencies, releases, security data, documentation, and runtime information.",
+      "name": "incident-event-query"
+    },
+    {
+      "description": "Build and inspect project releases, code changes, dependencies, security checks, documentation, events, and package information.",
+      "name": "release-plan-build"
+    },
+    {
+      "description": "Check project code, dependencies, releases, incidents, security configuration, documentation, and package information.",
+      "name": "security-config-check"
+    },
+    {
+      "description": "Check and inspect project documentation, code files, releases, dependencies, incidents, and configuration.",
+      "name": "documentation-link-check"
+    }
+  ]
+}

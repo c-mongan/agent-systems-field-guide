@@ -1,0 +1,42 @@
+{
+  "finding_count": 5,
+  "findings": [
+    {
+      "code": "COOKIE_HTTP_ONLY",
+      "evidence": "session_cookie.http_only=false",
+      "fix": "Set HttpOnly on the session cookie.",
+      "severity": "high"
+    },
+    {
+      "code": "OAUTH_PKCE",
+      "evidence": "oauth.pkce=false",
+      "fix": "Require PKCE for the authorization code flow.",
+      "severity": "high"
+    },
+    {
+      "code": "OAUTH_REDIRECT",
+      "evidence": "unapproved redirect URIs: https://*.example.com/callback",
+      "fix": "Use exact approved redirect URIs; do not use wildcard hosts.",
+      "severity": "high"
+    },
+    {
+      "code": "TOKEN_STORAGE",
+      "evidence": "browser_token_storage=local-storage-access-token",
+      "fix": "Store only an opaque session identifier in an HttpOnly cookie.",
+      "severity": "high"
+    },
+    {
+      "code": "COOKIE_SAMESITE",
+      "evidence": "session_cookie.same_site=None",
+      "fix": "Use an allowed SameSite value and document the cross-site need.",
+      "severity": "medium"
+    }
+  ],
+  "not_checked": [
+    "Identity-provider tenant policy",
+    "Runtime secret values",
+    "Network-layer controls"
+  ],
+  "passed": false,
+  "review_id": "account-portal-auth"
+}

@@ -1,0 +1,36 @@
+{
+  "lab": "05-premature-subagents",
+  "metrics": {
+    "mean_agent_count": {
+      "baseline": 9.3,
+      "candidate": 1.2,
+      "delta": -8.1,
+      "direction": "lower",
+      "improved": true
+    },
+    "mean_expected_success_probability": {
+      "baseline": 0.80734178,
+      "candidate": 0.97080316,
+      "delta": 0.163461,
+      "direction": "higher",
+      "improved": true
+    },
+    "mean_input_tokens": {
+      "baseline": 11160,
+      "candidate": 1804.5,
+      "delta": -9355.5,
+      "direction": "lower",
+      "improved": true
+    },
+    "mean_latency_ms": {
+      "baseline": 1598.5,
+      "candidate": 1239.5,
+      "delta": -359.0,
+      "direction": "lower",
+      "improved": true
+    }
+  },
+  "model_benchmark": false,
+  "result_type": "deterministic-structural-experiment",
+  "runner_version": "0.4.0"
+}

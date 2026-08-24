@@ -1,0 +1,8 @@
+{"active_skill": "pull-request-review", "case_id": "ec-01", "references_needed": 800}
+{"active_skill": "auth-security-review", "case_id": "ec-02", "references_needed": 2400}
+{"active_skill": "release-engineering", "case_id": "ec-03", "references_needed": 1100}
+{"active_skill": "production-incident", "case_id": "ec-04", "references_needed": 3100}
+{"active_skill": "code-migration", "case_id": "ec-05", "references_needed": 1800}
+{"active_skill": "documentation-maintenance", "case_id": "ec-06", "references_needed": 500}
+{"active_skill": "production-incident", "case_id": "ec-07", "references_needed": 1200}
+{"active_skill": "auth-security-review", "case_id": "ec-08", "references_needed": 900}
