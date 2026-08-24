@@ -26,6 +26,11 @@ PYTHON = sys.executable
 AGNIX_VERSION = "0.49.0"
 
 
+def _redact_local_paths(text: str) -> str:
+    """Remove the checkout path from reports intended for publication."""
+    return text.replace(str(ROOT), "<repo>")
+
+
 @dataclass(frozen=True)
 class Step:
     name: str
@@ -37,7 +42,9 @@ class Step:
     stderr: str
 
     def to_dict(self) -> dict[str, Any]:
-        return asdict(self)
+        payload = asdict(self)
+        payload["argv"] = [_redact_local_paths(argument) for argument in self.argv]
+        return payload
 
 
 def _run(
@@ -66,8 +73,8 @@ def _run(
             ok=completed.returncode == 0,
             returncode=completed.returncode,
             duration_ms=round((time.monotonic() - started) * 1000, 3),
-            stdout=completed.stdout,
-            stderr=completed.stderr,
+            stdout=_redact_local_paths(completed.stdout),
+            stderr=_redact_local_paths(completed.stderr),
         )
     except subprocess.TimeoutExpired as exc:
         stdout = exc.stdout if isinstance(exc.stdout, str) else ""
@@ -81,8 +88,8 @@ def _run(
             ok=False,
             returncode=124,
             duration_ms=round((time.monotonic() - started) * 1000, 3),
-            stdout=stdout,
-            stderr=detail,
+            stdout=_redact_local_paths(stdout),
+            stderr=_redact_local_paths(detail),
         )
     except OSError as exc:
         return Step(
@@ -92,7 +99,7 @@ def _run(
             returncode=127,
             duration_ms=round((time.monotonic() - started) * 1000, 3),
             stdout="",
-            stderr=str(exc),
+            stderr=_redact_local_paths(str(exc)),
         )
 
 

@@ -10,4 +10,5 @@ build/
 dist/
 *.egg-info/
 site/
+runs/
 .DS_Store
