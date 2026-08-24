@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-24T20:33:23.049052+00:00",
+  "generated_at": "2026-08-24T20:36:03.088132+00:00",
   "ok": true,
   "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
   "profile": "release",
   "python": "3.13.1",
-  "source_commit": "796c0ba265eeea1a7c0759998e26de511a1f11f5",
+  "source_commit": "0b8d155b38f5c8c90c628e5f2c1534e99a8220af",
   "steps": [
     {
       "argv": [
@@ -12,7 +12,7 @@
         "check",
         "."
       ],
-      "duration_ms": 56.453,
+      "duration_ms": 12.088,
       "name": "ruff-check",
       "ok": true,
       "returncode": 0,
@@ -26,7 +26,7 @@
         "--check",
         "."
       ],
-      "duration_ms": 13.251,
+      "duration_ms": 11.011,
       "name": "ruff-format",
       "ok": true,
       "returncode": 0,
@@ -37,7 +37,7 @@
       "argv": [
         "mypy"
       ],
-      "duration_ms": 218.763,
+      "duration_ms": 216.35,
       "name": "mypy",
       "ok": true,
       "returncode": 0,
@@ -51,7 +51,7 @@
         "agnix@0.49.0",
         "--version"
       ],
-      "duration_ms": 674.565,
+      "duration_ms": 459.499,
       "name": "agnix-version",
       "ok": true,
       "returncode": 0,
@@ -66,7 +66,7 @@
         "--strict",
         "."
       ],
-      "duration_ms": 451.873,
+      "duration_ms": 423.709,
       "name": "agnix-strict",
       "ok": true,
       "returncode": 0,
@@ -84,7 +84,7 @@
         "examples",
         "scripts"
       ],
-      "duration_ms": 31.778,
+      "duration_ms": 32.71,
       "name": "compileall",
       "ok": true,
       "returncode": 0,
@@ -98,7 +98,7 @@
         "coverage",
         "erase"
       ],
-      "duration_ms": 66.724,
+      "duration_ms": 71.616,
       "name": "coverage-erase",
       "ok": true,
       "returncode": 0,
@@ -115,12 +115,12 @@
         "pytest",
         "-q"
       ],
-      "duration_ms": 825.098,
+      "duration_ms": 804.631,
       "name": "tests",
       "ok": true,
       "returncode": 0,
       "stderr": "",
-      "stdout": "..................................................                       [100%]\n50 passed in 0.60s\n"
+      "stdout": "..................................................                       [100%]\n50 passed in 0.58s\n"
     },
     {
       "argv": [
@@ -130,7 +130,7 @@
         "report",
         "--fail-under=90"
       ],
-      "duration_ms": 112.876,
+      "duration_ms": 109.048,
       "name": "branch-coverage",
       "ok": true,
       "returncode": 0,
@@ -145,7 +145,7 @@
         "check-skills",
         "."
       ],
-      "duration_ms": 52.345,
+      "duration_ms": 51.419,
       "name": "skill-spec",
       "ok": true,
       "returncode": 0,
@@ -160,7 +160,7 @@
         "check",
         "."
       ],
-      "duration_ms": 79.747,
+      "duration_ms": 78.384,
       "name": "repository",
       "ok": true,
       "returncode": 0,
@@ -178,7 +178,7 @@
         "--root",
         "."
       ],
-      "duration_ms": 47.77,
+      "duration_ms": 45.933,
       "name": "frozen-labs",
       "ok": true,
       "returncode": 0,
@@ -195,7 +195,7 @@
         "--root",
         "."
       ],
-      "duration_ms": 41.688,
+      "duration_ms": 41.724,
       "name": "diagram-drift",
       "ok": true,
       "returncode": 0,
@@ -208,9 +208,9 @@
         "examples/incident-response/run.py",
         "examples/incident-response/fixtures/input.json",
         "--output",
-        "/var/folders/gq/_5ytx8vs18xbh18m_k3n29ym0000gp/T/agent-guide-verify-unsvjb_q/incident-response.json"
+        "<temp>/agent-guide-verify-of6a5dfr/incident-response.json"
       ],
-      "duration_ms": 24.383,
+      "duration_ms": 24.141,
       "name": "example:incident-response",
       "ok": true,
       "returncode": 0,
@@ -223,9 +223,9 @@
         "examples/code-migration/run.py",
         "examples/code-migration/fixtures/input.json",
         "--output",
-        "/var/folders/gq/_5ytx8vs18xbh18m_k3n29ym0000gp/T/agent-guide-verify-unsvjb_q/code-migration.json"
+        "<temp>/agent-guide-verify-of6a5dfr/code-migration.json"
       ],
-      "duration_ms": 23.266,
+      "duration_ms": 23.467,
       "name": "example:code-migration",
       "ok": true,
       "returncode": 0,
@@ -238,9 +238,9 @@
         "examples/security-review/run.py",
         "examples/security-review/fixtures/input.json",
         "--output",
-        "/var/folders/gq/_5ytx8vs18xbh18m_k3n29ym0000gp/T/agent-guide-verify-unsvjb_q/security-review.json"
+        "<temp>/agent-guide-verify-of6a5dfr/security-review.json"
       ],
-      "duration_ms": 23.349,
+      "duration_ms": 23.24,
       "name": "example:security-review",
       "ok": true,
       "returncode": 0,
@@ -253,9 +253,9 @@
         "examples/release-engineering/run.py",
         "examples/release-engineering/fixtures/input.json",
         "--output",
-        "/var/folders/gq/_5ytx8vs18xbh18m_k3n29ym0000gp/T/agent-guide-verify-unsvjb_q/release-engineering.json"
+        "<temp>/agent-guide-verify-of6a5dfr/release-engineering.json"
       ],
-      "duration_ms": 22.871,
+      "duration_ms": 23.804,
       "name": "example:release-engineering",
       "ok": true,
       "returncode": 0,
@@ -272,14 +272,14 @@
         "--root",
         ".",
         "--output",
-        "/var/folders/gq/_5ytx8vs18xbh18m_k3n29ym0000gp/T/agent-guide-verify-unsvjb_q/knowledge.json"
+        "<temp>/agent-guide-verify-of6a5dfr/knowledge.json"
       ],
-      "duration_ms": 42.219,
+      "duration_ms": 41.472,
       "name": "knowledge-export",
       "ok": true,
       "returncode": 0,
       "stderr": "",
-      "stdout": "{\n  \"records\": 16,\n  \"output\": \"/var/folders/gq/_5ytx8vs18xbh18m_k3n29ym0000gp/T/agent-guide-verify-unsvjb_q/knowledge.json\"\n}\n"
+      "stdout": "{\n  \"records\": 16,\n  \"output\": \"<temp>/agent-guide-verify-of6a5dfr/knowledge.json\"\n}\n"
     }
   ]
 }

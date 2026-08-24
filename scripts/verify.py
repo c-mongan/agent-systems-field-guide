@@ -27,8 +27,12 @@ AGNIX_VERSION = "0.49.0"
 
 
 def _redact_local_paths(text: str) -> str:
-    """Remove the checkout path from reports intended for publication."""
-    return text.replace(str(ROOT), "<repo>")
+    """Remove checkout and temporary paths from publication reports."""
+    redacted = text.replace(str(ROOT), "<repo>")
+    temp_root = Path(tempfile.gettempdir())
+    for variant in {str(temp_root), str(temp_root.resolve())}:
+        redacted = redacted.replace(variant, "<temp>")
+    return redacted
 
 
 @dataclass(frozen=True)
